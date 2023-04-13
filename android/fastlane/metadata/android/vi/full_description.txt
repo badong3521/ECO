@@ -1,0 +1,7 @@
+Các tính năng nổi bật:
+- Trang chủ: Đóng vai trò là bảng thông báo thông minh để giúp cộng đồng cư dân Ecopark luôn nắm giữ những thông tin quan trọng, nổi bật đang diễn ra tại đây. Ngoài ra, với thiết kế giao diện thân thiện, thông minh, "Trang chủ" sẽ hỗ trợ các khách tham quan tìm kiếm mọi hàng quán dễ dàng, giúp nâng cao trải nghiệm du lịch tại Ecopark trọn vẹn hơn.
+- Ecobus: Tận dụng hệ thống xe buýt của Ecopark để đi đến và về từ Hà Nội, các chức năng nổi bật bao gồm tìm tuyến xe, xem lịch trình và theo dõi vị trí chính xác của xe buýt.
+- Cá nhân: Quản lý thông tin cá nhân và tương tác trực tiếp với Ecopark.
+- EcoID: Thanh toán các loại hoá đơn điện tử qua ứng dụng EcoOne.
+
+Các bản cập nhật tiếp theo sẽ cải thiện trải nghiệm của bạn tại Ecopark.

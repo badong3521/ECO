@@ -1,0 +1,7 @@
+Featured functionality:
+- Home Screen: Home screen plays a role as a smart information board to keep residents up-to-date with important and featured information at Ecopark. In addition, with a smart and friendly interface, the home screen makes it easy for visitors to find merchants, enhancing the experience of their stay at Ecopark.
+- Ecobus: Utilize Ecopark's bus system to travel to and from Hanoi. Featured functionalities include finding bus routes, looking up bus schedule, and monitoring location of bus.
+- User Dashboard: Manage personal information and stay in direct contact with Ecopark.
+- EcoID: Pay electronic bills through EcoOne.
+
+Coming updates will continue enhancing your experience at Ecopark.

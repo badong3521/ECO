@@ -1,0 +1,1132 @@
+{
+  "components": {
+    "userStatusBar": {
+      "welcomeMessage": "Chào {{fullName}}",
+      "welcomeMessageNoName": "Chào bạn",
+      "dailyMessage": "Ngày hôm nay thật đẹp phải không?",
+      "goodMorning": "Chào buổi sáng",
+      "goodAfternoon": "Chào buổi chiều",
+      "goodEvening": "Chào buổi tối"
+    },
+    "userInformationCard": {
+      "welcomeMessage": "Rất vui được gặp lại,"
+    },
+    "card": {
+      "featured": "Nổi bật"
+    },
+    "attachmentModal": {
+      "uploadFile": "Đính kèm tệp",
+      "uploadImage": "Đính kèm ảnh",
+      "chooseFromLibrary": "Chọn ảnh từ thư viện"
+    },
+    "gallery": {
+      "saveToLocal": "Lưu ảnh"
+    },
+    "noResidentFound": {
+      "header": "Tài khoản cư dân chưa kích hoạt",
+      "title": "Rất tiếc, chúng tôi chưa tìm thấy thông tin của Quý cư dân.",
+      "description": "Vui lòng gặp lễ tân và mang theo giấy tờ để cập nhật thông tin cư dân và có thể tiếp tục tiến trình đăng kí tiêm vắc xin!"
+    },
+    "selectResident": {
+      "titleAccommodation": "Vui lòng chọn 1 trong các địa chỉ sau:",
+      "title": "Vui lòng chọn thành viên:",
+      "unselectableTitle": "Bản đăng ký của Quý cư dân đang được xử lý. Vui lòng đợi, chúng tôi sẽ phản hồi sau.",
+      "selectNote": "Hãy chọn đúng tên người bạn muốn đăng ký. Nếu không tìm thấy tên thành viên trong danh sách dưới đây, vui lòng liên hệ lễ tân để thêm tài khoản cư dân cho người đó.",
+      "selectMultipleResidentNote": "Số điện thoại của Quý cư dân đang được gắn với nhiều thành viên. Theo yêu cầu tiêm chủng và để đảm bảo người được tiêm nhận được thông tin tiêm chủng qua tin nhắn SMS, Quý cư dân vui lòng cập nhật lại SĐT thường sử dụng của các thành viên với lễ tân và đăng ký lại trên EcoOne.",
+      "registered": "Đã đăng ký",
+      "unverified": "Từ chối",
+      "doSurvey": "Vui lòng làm khảo sát",
+      "surveySubmitted": "Đã gửi khảo sát: {{total}} lần"
+    },
+    "noticeJailbreak": {
+      "title": "Cảnh báo phần mềm độc hại!",
+      "message": "EcoOne phát hiện thiết bị của bạn đã bị Rooted/JailBroken.",
+      "exitApp": "Thoát ứng dụng",
+      "continue": "Tiếp tục"
+    }
+  },
+  "bottomNavigation": {
+    "labels": {
+      "homeScreen": "Trang chủ",
+      "directory": "Danh mục",
+      "bus": "Ecobus",
+      "profile": "Cá nhân"
+    }
+  },
+  "features": {
+    "rateAppScreen": {
+      "title": [
+        "Không hài lòng",
+        "Tạm ổn",
+        "Rất hài lòng"
+      ],
+      "subtitle": [
+        "Buồn ghê, bạn gặp vấn đề gì sao?",
+        "Bạn có thể chia sẻ thêm không nè?",
+        "Kể EcoOne nghe trải nghiệm của bạn đi!"
+      ]
+    },
+    "directory": {
+      "promotions": {
+        "expired": "Hết hạn",
+        "promotions": "Ưu đãi",
+        "expiredAt": "Hết hạn vào",
+        "types": {
+          "buy_get": "Mua {{buy}} Tặng {{get}}",
+          "percent_off": "Giảm {{percent}}%",
+          "percent_off_upto": "Giảm đến {{percent}}%",
+          "only_from": "Giá chỉ {{price}}K",
+          "same_price": "Đồng giá {{price}}K",
+          "1million": "1 TRIỆU",
+          "voucher": "Hái lộc voucher",
+          "gift": "Quà tặng"
+        }
+      },
+      "news": {
+        "news": "Tin tức",
+        "all": "Tất cả",
+        "ecopark": "Tin Ecopark",
+        "community": "Tin cộng đồng",
+        "empty": "Chưa có tin tức nào"
+      },
+      "event": {
+        "events": "Sự kiện",
+        "onGoingEvent": "Đang diễn ra",
+        "specialEvents": "Sự kiện đặc biệt",
+        "noSpecialEvents": "Không có sự kiện nào"
+      },
+      "noData": "Ôi, chưa có dữ liệu.",
+      "allMerchants": {
+        "subtitle": "Cùng khám phá",
+        "title": "Cửa hàng tại Ecopark"
+      },
+      "searchBarPlaceholder": "Bạn đang tìm gì?",
+      "searchScreen": {
+        "searchBarPlaceholder": "Tìm theo tên cửa hàng",
+        "noResult": "Kết quả bạn tìm không có rồi. Thử nhập tên cửa hàng khác nhé!"
+      },
+      "filters": {
+        "noResult": "Chưa có nội dung nào được tạo trong danh mục này.",
+        "merchant": {
+          "all": "Tất cả",
+          "new": "Mới",
+          "promotion": "Ưu đãi"
+        }
+      }
+    },
+    "home": {
+      "happeningInEcopark": "Sự kiện tại Ecopark",
+      "yourDailyRead": "Tin tức mỗi ngày",
+      "viewAll": "Tất cả",
+      "official": "CHÍNH THỨC",
+      "joinNow": "Xem chi tiết",
+      "weather": {
+        "ecopark": "Ecopark",
+        "humidity": "Độ ẩm {{humidity}}%",
+        "windSpeed": "Gió {{windSpeed}}km/h"
+      },
+      "newBill": {
+        "message": "Bạn đang có {{total}} hóa đơn nước và phí dịch vụ chờ thanh toán.",
+        "messageMultipleBill": "Bạn đang có {{total}} hóa đơn nước và phí dịch vụ chờ thanh toán.",
+        "payNow": "Thanh toán"
+      },
+      "newElectricBill": {
+        "message": "Bạn đang có {{total}} hóa đơn điện chờ thanh toán.",
+        "messageMultipleBill": "Bạn có {{total}} hóa đơn điện chờ thanh toán."
+      },
+      "ecoidOnboarding": {
+        "message": "Một phút chạm thanh toán - Giao dịch bớt lo toan",
+        "tryNow": "Thử ngay"
+      },
+      "lixi": {
+        "title": "Lì xì đầy hộp, mở ngay!",
+        "closingTitle": "Lì xì đang tới, đợi tí nhé!",
+        "totalPrize": "Tổng giải thưởng lên tới",
+        "openFrom": "Lần quay tiếp theo:",
+        "timeRemainingToOpen": "Kết thúc trong:",
+        "lixiTotal": "Bạn đã khui được {{total}} Lì Xì",
+        "viewNow": "Xem ngay",
+        "timeAttributes": {
+          "hours": "Giờ",
+          "minutes": "Phút",
+          "seconds": "Giây"
+        }
+      }
+    },
+    "lixiOnboarding": {
+      "description": "Chạm hoặc lắc hộp - Khui lì xì!\nTổng giải thưởng lên tới\n100,000,000 VNĐ.",
+      "gotLucky": "Mừng Tết Tân Sửu 2021!\nBạn đã nhận được một Lời chúc Năm mới từ EcoOne",
+      "gotLixi": "Xin chúc mừng!\nBạn đã nhận được một Lì Xì chào Xuân từ EcoOne",
+      "gotGift": "Xin chúc mừng!\nBạn đã nhận được một Quà tặng đặc biệt từ EcoOne",
+      "gotVoucher": "Xin chúc mừng!\nBạn nhận được một Voucher từ {{merchant}}",
+      "luckyMessage": {
+        "title": "Chúc mừng năm mới xuân Tân Sửu 2021!",
+        "1": "Tết đến xuân về, EcoOne chúc bạn và cả gia đình một năm mới an khang, thịnh vượng, luôn tràn đầy niềm vui, sức khoẻ và may mắn nhé!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!",
+        "2": "Tết đến xuân về, EcoOne chẳng thích chúc gì cao xa, chỉ mong bạn luôn có những bữa ăn vui vẻ, bình an và mạnh khỏe bên gia đình và bạn bè bạn nhé!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!",
+        "3": "Cám ơn bạn vì đã đồng hành cùng EcoOne trong năm vừa qua nhé.<br>Chúc bạn Tết này vẫn giống Tết xưa, vẫn vui vẻ vẫn bình an có thừa!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!"
+      }
+    },
+    "helpDesk": {
+      "emptyState": {
+        "title": "Bạn chưa gửi yêu cầu nào",
+        "desc": "Chúng tôi luôn ở đây để phản hồi yêu cầu của bạn"
+      },
+      "ticketList": {
+        "title": "Yêu cầu của bạn",
+        "noTickets": "Bạn chưa có yêu cầu nào",
+        "createRequest": "Gửi Yêu Cầu",
+        "tabs": {
+          "all": "Tất Cả",
+          "response": "Phản hồi mới",
+          "open": "Chờ xử lý",
+          "closed": "Đã hoàn thành"
+        },
+        "emptyTitle": {
+          "all": "Bạn chưa gửi yêu cầu nào.",
+          "response": "Bạn chưa có yêu cầu nào nhận được phản hồi.",
+          "open": "Bạn không có yêu cầu nào đang chờ xử lý.",
+          "closed": "Bạn chưa có yêu cầu nào đã được hoàn thành!"
+        },
+        "emptyDesc": {
+          "all": "Chúng tôi luôn ở đây để phản hồi yêu cầu của bạn",
+          "response": "Bộ phận tiếp nhận đang trong quá trình tìm giải pháp phù hợp nhất cho yêu cầu của bạn, chờ chút bạn nhé!",
+          "open": "EcoOne vẫn tiếp tục lắng nghe và hỗ trợ giải quyết mọi yêu cầu của bạn.",
+          "closed": "Tạo yêu cầu mới nếu cần EcoOne giúp đỡ thêm bạn nhé."
+        }
+      },
+      "ticketScreen": {
+        "resolveLabel": "Hoàn thành",
+        "inputLabel": "Phản hồi",
+        "reopenLabel": "Mở lại yêu cầu",
+        "subject": "Tiêu đề: {{subject}}",
+        "messageConfirmCloseTopic": "Bạn có chắc chắn muốn hoàn thành yêu cầu này?\nSau khi hoàn thành, bạn vẫn có thể mở lại cuộc hội thoại này. ",
+        "continue": "Tiếp tục",
+        "rateTicket": "Đánh giá",
+        "reply": "Trả lời"
+      },
+      "banner": {
+        "title": "Cần giúp đỡ?",
+        "subtitle": "Hãy tạo yêu cầu và chúng tôi sẽ giải quyết cho bạn",
+        "getSupport": "Tạo yêu cầu"
+      },
+      "create": {
+        "feedbackAbout": "Yêu cầu về",
+        "selectTopicTitle": "Yêu cầu của bạn thuộc chủ đề nào vậy?",
+        "selectRoleTitle": "Bạn là ai nhỉ?",
+        "selectRoleSubTitle": "Chọn vai trò phù hợp nhất với bạn nhé.",
+        "topicTitle": "Dịch vụ cần hỗ trợ",
+        "uploadAttachment": "Tải lên",
+        "validation": {
+          "required": "Đây là bắt buộc",
+          "maxLengthSubject": "Tối đa 60 kí tự"
+        },
+        "subjectLabel": "Tiêu đề (Tối đa là 60 kí tự)",
+        "descriptionLabel": "Mô tả chi tiết",
+        "photoLabel": "Đính kèm ảnh",
+        "fileLabel": "Đính kèm tệp (PDF/Doc/Docx)",
+        "success": {
+          "title": "Đã Gửi Thành Công!",
+          "desc": "Yêu cầu của bạn đã được gửi tới {{name}} và sẽ được trả lời trong khoảng thời gian sớm nhất.",
+          "goBack": "Quay lại",
+          "viewDetail": "Xem cuộc trò chuyện"
+        }
+      },
+      "badges": {
+        "response": "Phản hồi mới",
+        "open": "Chờ xử lý",
+        "closed": "Đã hoàn thành"
+      },
+      "ticketRating": {
+        "title": "Yêu cầu của bạn đã được giải quyết.",
+        "desc": "Cho EcoOne biết mức độ hài lòng của bạn với sự hỗ trợ của chúng tôi nhé?",
+        "notNow": "Không phải bây giờ",
+        "reactions": {
+          "bad": "Không hài lòng",
+          "ok": "Bình thường",
+          "good": "Hài lòng"
+        }
+      }
+    },
+    "onboarding": {
+      "title": "Xin chào",
+      "text": "Bạn đã sẵn sàng khám phá giao diện và chức năng mới trong bản cập nhật này chưa?\n\nCùng bắt đầu nào!",
+      "buttonLabel": "Vuốt để khám phá"
+    },
+    "signUp": {
+      "signIn": "Đăng nhập",
+      "hiThere": "Chào bạn!",
+      "alreadyHaveAccount": "Bạn đã có tài khoản?",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "phoneNumber": "Số điện thoại",
+      "password": "Mật khẩu",
+      "termsAndConditionsAgreement": "Tôi đồng ý với [Điều khoản và Chính sách] của EcoOne",
+      "orSignInWidth": "Hoặc đăng nhập với",
+      "contactUs": "Nếu có vấn đề vui lòng gọi tới: [{{phone}}]",
+      "onboarding": {
+        "1": "[Chạm là tới] các dịch vụ tốt nhất tại Ecopark",
+        "2": "Giải đáp mọi thắc mắc với [Hỗ trợ]",
+        "3": "Luôn cập nhật ngay mọi [Tin tức]"
+      }
+    },
+    "addPhoneNumber": {
+      "description": "Bạn đã đăng nhập với {{provider}}, vui lòng cung cấp số điện thoại bên dưới",
+      "signUp": "Đăng nhập",
+      "provider": {
+        "google_oauth2": "Google",
+        "facebook": "Facebook",
+        "apple": "Apple"
+      }
+    },
+    "verification": {
+      "description": "Một tin nhắn SMS kèm mã OTP đã được gửi đến số điện thoại của bạn. Vui lòng nhập vào ô phía dưới",
+      "resendOtp": "{{time}} Gửi lại OTP"
+    },
+    "signIn": {
+      "description": "Vui lòng đăng nhập bên dưới\nChưa có tài khoản? ",
+      "signUp": "Đăng ký",
+      "signIn": "Đăng nhập",
+      "forgotPassword": "Quên mật khẩu"
+    },
+    "forgotPassword": {
+      "description": "Vui lòng cung cấp số điện thoại để \nđặt lại mật khẩu"
+    },
+    "resetPassword": {
+      "description": "Nhập mậu khẩu mới phía dưới",
+      "newPassword": "Mật khẩu mới",
+      "retypeNewPassword": "Nhập lại mật khẩu mới"
+    },
+    "userScreen": {
+      "rateAppTitle": "Đánh giá ứng dụng",
+      "rateAppSubtitle": "Tóm lại thì: EcoOne có đang hỗ trợ được bạn đúng lúc, đúng nơi, đúng chỗ?",
+      "yourRating": "Đánh giá của bạn",
+      "rateAppAction": "Đánh giá",
+      "syncEcoId": "Cư dân Ecopark",
+      "syncEcoIdDesc": "Quản lý và thanh toán các loại phí, hoá đơn Thông minh - Nhanh chóng - An toàn.",
+      "syncNow": "Kích hoạt",
+      "surveyButton": "Bắt đầu khảo sát ngay",
+      "popupLogoutTitle": "Bạn có muốn đăng xuất khỏi EcoOne?",
+      "logout": "Đăng xuất",
+      "busCardNoRegistered": "Thẻ xe buýt chưa được đăng ký",
+      "clickToAdd": "Bấm để đăng ký",
+      "contactUs": "Liên hệ",
+      "getHelp": "Hỗ trợ",
+      "clickMe": "Chi tiết",
+      "ecofeedback": "GÓC PHẢN ÁNH",
+      "ecofeedbackDesc": "Luôn luôn lắng nghe và hỗ trợ cư dân.",
+      "sendFeedback": "Gửi phản hồi ngay",
+      "helpDeskDescription": "Nhấn vào đây để nhận trợ giúp cho tất cả các vấn đề và thắc mắc của bạn.",
+      "ecoId": "EcoID",
+      "noEcoIdDescription": "Nhấn để bắt đầu thanh toán hoá đơn trực tuyến cho gia đình bạn.",
+      "syncedEcoIdDescription": "Quản lý căn hộ và thanh toán hoá đơn trực tuyến.",
+      "profile": "Trang cá nhân",
+      "actions": {
+        "electricBill": "Thanh toán hoá đơn điện",
+        "helpDesk": "Liên Hệ",
+        "bookmarks": "Trang đã lưu",
+        "settings": "Cài đặt",
+        "manageCalendar": "Quản lý đặt lịch bàn giao"
+      },
+      "residences": {
+        "totalUnpaidBill": "Bạn có {{total}} hóa đơn nước & phí dịch vụ cần thanh toán",
+        "totalUnpaidBills": "Bạn có {{total}} hóa đơn nước & phí dịch vụ cần thanh toán",
+        "noUnpaidBill": "Bạn không có hoá đơn nước & phí dịch vụ nào cần thanh toán",
+        "manageHousehold": "Quản lý căn hộ"
+      }
+    },
+    "contactScreen": {
+      "phone": "Gọi",
+      "email": "Email",
+      "openHours": "Giờ mở cửa:",
+      "daysShort": [
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "CN"
+      ]
+    },
+    "updateProfileScreen": {
+      "personalInformation": "Đây là bạn!",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Email",
+      "phoneNumber": "Số điện thoại",
+      "birthday": "Ngày sinh",
+      "interests": "Sở thích",
+      "ecoparkArea": "Khu vực ở Ecopark",
+      "avatar": "Ảnh đại diện",
+      "viewAvatar": "Xem ảnh đại diện",
+      "takePhoto": "Chụp ảnh mới",
+      "chooseFromLibrary": "Chọn trong thư viện",
+      "description": "Thay đổi thông tin cá nhân bên dưới",
+      "updateProfileSuccess": "Hồ sơ được cập nhật thành công!",
+      "confirmWantToBack": "Bạn chưa lưu lại thông tin đã cập nhật. Bạn có muốn huỷ các thay đổi không?",
+      "noneArea": "Không chọn",
+      "gender": {
+        "title": "Giới tính",
+        "male": "Nam",
+        "female": "Nữ"
+      }
+    },
+    "cardScreen": {
+      "about": "Giới thiệu",
+      "contact": "Liên hệ",
+      "cards": "Thẻ",
+      "phone": "Gọi",
+      "email": "Email",
+      "directions": "Chỉ đường",
+      "confirmRedeemTitle": "Bạn có muốn sử dụng ưu đãi này không?",
+      "coupon": "Ưu đãi",
+      "expiredAt": "Hết hạn vào",
+      "useRedeemDescription": "Vui lòng mang thẻ này đến cửa hàng để nhận ưu đãi.\nCó hiệu lực 01 lần với mỗi người dùng",
+      "redeemed": "ĐÃ NHẬN ƯU ĐÃI",
+      "redeemedAt": "vào {{time}}",
+      "slideToRedeem": "TRƯỢT ĐỂ NHẬN ƯU ĐÃI",
+      "couponCard": "Thẻ ưu đãi",
+      "upcoming": "Sắp có mặt",
+      "promotions": "Ưu đãi",
+      "news": "Tin tức",
+      "events": "Sự kiện",
+      "merchants": "Cửa hàng",
+      "openingHours": "Giờ mở cửa",
+      "open": "Mở cửa",
+      "closed": "Đóng cửa",
+      "openAt": "Mở cửa vào",
+      "closedAt": "Đóng cửa vào"
+    },
+    "busScheduleScreen": {
+      "pickupPoint": "Điểm lên",
+      "dropOffPoint": "Điểm xuống",
+      "pickupAndDropOffPoint": "Điểm lên và xuống",
+      "selectRoute": "Chọn tuyến",
+      "schedule": "Lịch trình",
+      "notice": "Lưu ý",
+      "busStops": "Điểm dừng",
+      "scheduleButton": "Lịch trình"
+    },
+    "busScreen": {
+      "busPayment": {
+        "paymentFailure": {
+          "title": "THANH TOÁN KHÔNG THÀNH CÔNG",
+          "message": "Đã xảy ra lỗi! [{{message}}] Vui lòng sử dụng mã đơn hàng của bạn {{orderRef}} và liên hệ với EcoPM để nhận hỗ trợ."
+        },
+        "paymentSuccessful": {
+          "title": "Gia Hạn Thẻ Thành Công!",
+          "message": "Bạn đã gia hạn thẻ thành công! Chúc bạn có những chuyến đi vui vẻ trên Ecobus!"
+        }
+      },
+      "syncBusCard": {
+        "title": "Thẻ nào là thẻ của bạn nhỉ?",
+        "desc": "Vui lòng chọn đúng thẻ bạn đang sử dụng nhé!"
+      },
+      "busCardScreen": {
+        "busCard": "Thẻ buýt",
+        "verifyBusCardButton": "Xác thực thẻ xe",
+        "priceChartButton": "Bảng giá",
+        "addCardButton": "Thêm thẻ",
+        "addBusCardButton": "Thêm thẻ xe buýt",
+        "expirationDateText": "Hết hạn vào",
+        "usesLeftText": "Số lượt còn lại",
+        "myCard": "Thẻ của tôi",
+        "deleteConfirmationMessage": "Bạn có chắc muốn xóa thẻ này?",
+        "cardDeletedMessage": "Thẻ đã được xóa.",
+        "tab": {
+          "busCard": "Thẻ xe buýt",
+          "singlePass": "Vé xe buýt"
+        },
+        "extendCard": "Gia hạn thẻ",
+        "detail": {
+          "isLocked": "BỊ KHOÁ",
+          "invalidStartDate": "CHƯA CÓ HIỆU LỰC",
+          "expiredByDate": "HẾT HẠN",
+          "outOfRemainingTrip": "HẾT LƯỢT",
+          "isFree": "MIỄN PHÍ",
+          "active": "CÓ HIỆU LỰC",
+          "tripRemaining": "Số chuyến còn lại",
+          "startFrom": "Bắt đầu từ",
+          "validStart": "Hiệu lực",
+          "validUntil": "Hết hạn",
+          "total": "Tổng",
+          "freeCard": "Miễn Phí"
+        },
+        "noneEcoId": "Tiếc quá...\nChúng tôi không thể tìm thấy thẻ xe buýt nào. Vui lòng liên hệ với EcoPM để được hỗ trợ!",
+        "contact": "Liên hệ",
+        "needSyncBusCardFirst": "Vui lòng kích hoạt thẻ xe buýt trước!",
+        "syncCard": "Thêm / Xoá thẻ",
+        "needSyncEcoIdFirst": "Vui lòng kích hoạt EcoID để bắt đầu quản lý thẻ xe buýt của bạn!",
+        "needResyncEcoId": "Tiếc quá...\nChúng tôi không thể tìm thấy thẻ xe buýt nào. Vui lòng liên hệ với EcoPM để được hỗ trợ!",
+        "resycnEcoID": "Kích hoạt lại",
+        "sycnEcoID": "Kích hoạt"
+      },
+      "extendBusCard": {
+        "total": "Tổng",
+        "tab": {
+          "freeCards": "Thẻ Miễn Phí",
+          "charge": "Thẻ Mất Phí"
+        },
+        "proceed": "Thanh Toán",
+        "extendFree": "Gia hạn thẻ",
+        "noCardExtend": "Thẻ của bạn hiện chưa thể gia hạn trên EcoOne, vui lòng gia hạn thẻ tại quầy lễ tân."
+      },
+      "busCardVerificationScreen": {
+        "headerTitle": "Xác thực thẻ xe",
+        "livingAreaLabel": "Khu vực",
+        "cardNumberLabel": "Số thẻ",
+        "resetButton": "Nhập lại",
+        "verifyBusCardButton": "Xác thực",
+        "dismissVerificationButton": "Hoàn tất",
+        "primary": "Tôi là chủ thẻ",
+        "cardModifiedMessage": "Thay đổi của bạn đã được lưu lại.",
+        "cardVerifiedMessage": "Thẻ xe buýt mới đã được thêm thành công!"
+      },
+      "busCardInformationScreen": {
+        "headerRegistration": "Đăng ký thẻ xe bus",
+        "contentRegistration": "- Cư dân tại các chung cư đăng ký với lễ tân tại sảnh mỗi tòa nhà.\n- Cư dân các khu thấp tầng đăng ký tại các Club house nội khu. Riêng cư dân Phố Trúc và các đơn vị kinh doanh trong khu đô thị Ecopark đăng ký tại Văn phòng EcoPM - Tháp C1 Rừng Cọ.\n\n- Lưu ý:\n- Quý khách hàng vui lòng nhận thẻ và sử dụng Ecobus sau 3-5 ngày làm việc khi hoàn thành xong đăng ký dịch vụ.\n- Chỉ chủ thẻ mới được sử dụng thẻ khi lên xe, nếu phát hiện hành vi cho mượn thẻ/không đúng chủ thẻ sử dụng, thẻ sẽ bị thu hồi.",
+        "headerExtend": "Gia hạn và thanh toán thẻ xe bus trên ứng dụng EcoOne",
+        "contentExtend": "Đối với thẻ combo:\n- Thẻ combo có thời hạn sử dụng tính từ ngày gia hạn. Có nghĩa là dù mua một hay nhiều combo 10 cùng một lúc thì hạn sử dụng đối với tất cả các lượt quẹt vẫn là 6 tháng.\n- Không sử dụng được thẻ combo khi hết hạn sử dụng hoặc hết lượt quẹt, bất kể điều kiện nào đến trước:\n  + Nếu hết lượt quẹt mà vẫn còn hạn sử dụng, lần gia hạn tiếp theo sẽ tính từ ngày thực hiện thao tác gia hạn, không cộng dồn với các ngày còn lại của combo trước đó.\n  + Trường hợp hết hạn sử dụng mà vẫn còn lượt, số lượt còn lại đó cũng sẽ bị tính về 0 khi thực hiện gia hạn lần tới.\n\nĐối với thẻ tháng:\n- Thẻ tháng Ecobus sẽ ngay lập tức được gia hạn sau khi khách hàng thực hiện gia hạn và thanh toán qua ứng dụng EcoOne.\n- Đối với hình thức gia hạn và thanh toán tại quầy lễ tân hoặc chuyển khoản, vui lòng thực hiện trước ngày 23 hàng tháng.\n- Quý khách đăng ký vào bất kỳ thời gian nào trong tháng cũng được tính phí dịch vụ như một (01) tháng.",
+        "instructionDetails": "Quý khách vui lòng xem Bản hướng dẫn sử dụng dịch vụ đầy đủ tại [đây]. Mọi thắc mắc vui lòng liên hệ hotline EcoPM: 02462664545 để được hỗ trợ.\n\n"
+      },
+      "busCardPriceScreen": {
+        "busCardTypeColumnTitle": "Loại thẻ",
+        "busCardPriceColumnTitle": "Giá tiền"
+      },
+      "busRoute": {
+        "allStops": "Tất cả trạm xe buýt",
+        "yourTrip": "Chuyến đi của bạn",
+        "moreSteps": "{{moreSteps}} trạm xe buýt nữa",
+        "moreStops": "{{moreSteps}} trạm xe buýt nữa",
+        "noRouteFound": "Không thể tìm thấy tuyến xe giữa vị trí hiện tại và trạm xe buýt đã chọn."
+      },
+      "bottomDrawer": {
+        "searchHint": "Tìm địa điểm"
+      },
+      "searchDestination": {
+        "recents": "Gần đây",
+        "currentLocation": "Vị trí hiện tại",
+        "chooseOnMap": "Chọn trên bản đồ",
+        "selectALocation": "Chọn một địa điểm",
+        "selectARoute": "Chọn một tuyến xe",
+        "noData": "Không thể tìm thấy tuyến xe nào."
+      },
+      "searchDirection": {
+        "recents": "Gần đây",
+        "noSearchHistory": "Bạn chưa tìm kiếm lần nào!",
+        "busStopSchedule": "Lịch trình trạm xe buýt",
+        "searchALocation": "Tìm một địa điểm",
+        "directMeHere": "Chỉ đường tới đây",
+        "selectALocation": "Tìm một địa điểm",
+        "noStops": "Không thể tìm thấy trạm xe buýt nào gần địa điểm đã chọn."
+      },
+      "stopDetail": {
+        "today": "Hôm nay",
+        "selectDate": "Chọn ngày",
+        "selectTime": "Chọn giờ",
+        "schedule": "Lịch trình",
+        "moreStops": "{{moreStops}} trạm xe buýt nữa"
+      },
+      "busStop": {
+        "showDirectionButton": "Chỉ đường tới đây",
+        "showScheduleButton": "Xem lịch trình",
+        "selectARoute": "Chọn một tuyến xe"
+      },
+      "busSettings": {
+        "showBusLocation": "Hiện vị trí xe trên bản đồ"
+      },
+      "locationPermission": "Hãy vào Cài đặt để cho phép EcoOne truy cập vị trí",
+      "shortcuts": {
+        "home": "Nhà",
+        "work": "Chỗ làm",
+        "edit": "Sửa",
+        "set": "Đặt"
+      }
+    },
+    "settingsScreen": {
+      "changePassword": "Đổi mật khẩu",
+      "language": "Ngôn ngữ",
+      "notifications": "Thông báo",
+      "resync_notification": "Thêm/xoá căn hộ",
+      "languageOptions": {
+        "vn": "Tiếng Việt",
+        "en": "English"
+      },
+      "confirmChangeLanguage": "Bạn có muốn đổi ngôn ngữ qua {{language}}?",
+      "signOut": "Đăng xuất",
+      "notificationsSettings": {
+        "billNotifications": "Thông báo về hoá đơn",
+        "newsNotifications": "Thông báo về tin tức",
+        "newsNotificationsOfEcopark": "Thông báo về các tin tức chính thống từ Ecopark",
+        "newsNotificationsOfEcoPM": "Thông báo về các tin tức chính thống từ EcoPM",
+        "paymentReminderNotification": "Nhắc nhở"
+      }
+    },
+    "changePasswordScreen": {
+      "description": "Nhập mật khẩu mới phía dưới",
+      "oldPassword": "Mật khẩu cũ",
+      "newPassword": "Mật khẩu mới",
+      "retypeNewPassword": "Nhập lại mật khẩu mới",
+      "changePasswordSuccess": "Mật khẩu đã được đổi thành công."
+    },
+    "cardProfileScreen": {
+      "about": "Giới thiệu",
+      "contents": "Bài viết",
+      "editor": "Người viết bài"
+    },
+    "cardFavoritesScreen": {
+      "favorites": "Yêu thích ({{count}})",
+      "noFavoriteCards": "Bạn chưa có thẻ yêu thích.",
+      "favoritesLabel": "Yêu thích"
+    },
+    "notificationScreen": {
+      "noNotification": "Hiện tại bạn đang không có thông báo nào.",
+      "announcementBadge": "Thông báo"
+    },
+    "bookmarkScreen": {
+      "noBookmark": "Chưa lưu nội dung nào.",
+      "noBookmarkSubtitle": "Tạo bộ sưu tập nội dung yêu thích bằng cách sử dụng icon lưu."
+    },
+    "vaccineDashboard": {
+      "title": {
+        "register": "Đăng ký thông tin tiêm chủng",
+        "management": "Quản lý thông tin",
+        "injection_update": "Khảo sát tiêm chủng",
+        "feedback": "Khảo sát sức khỏe sau tiêm"
+      },
+      "desc": {
+        "register": "Đã đăng ký: {{total}}",
+        "management": "Đã xác minh: {{total}}",
+        "injection_update": "Đã làm: {{total}}",
+        "feedback": "Đã làm: {{total}}"
+      },
+      "modelTitle": {
+        "register": "Đăng ký thông tin tiêm chủng",
+        "management": "Quản lý thông tin",
+        "injection_update": "Khảo sát tiêm chủng",
+        "feedback": "Khảo sát sức khỏe sau tiêm",
+        "registerExpired": "Hết hạn đăng ký"
+      }
+    },
+    "vaccineRegistrationExpired": {
+      "header": "Rất tiếc, thời hạn đăng ký thông tin tiêm chủng đã hết.",
+      "details": "Quý cư dân vui lòng liên hệ với lễ tân hoặc gọi 1900555565 để được hướng dẫn. Trân trọng cảm ơn!"
+    },
+    "vaccineRegistrationList": {
+      "descText": "Các cư dân đã xác minh thông tin sẽ được Ecopark gửi lịch tiêm trong thời gian tới. Vui lòng theo dõi các thông báo.",
+      "verifying": "Đang xác minh",
+      "verified": "Đã xác minh",
+      "rejected": "Từ chối",
+      "need_updating": "Cần cập nhật",
+      "not_found": "Chưa có đăng ký nào.",
+      "rejectNote": "Không thể xác minh thông tin, vui lòng liên hệ lễ tân."
+    },
+    "afterInjectionUpdate": {
+      "titleChoseServay": "Bạn đã thực hiện tiêm vắc xin Covid-19?",
+      "noInjection": "Chưa tiêm",
+      "injection": "Đã tiêm",
+      "updateNoInjection": {
+        "title": "Vui lòng chia sẻ cho chúng tôi lý do bạn chưa đi tiêm nhé",
+        "button": "Gửi câu trả lời"
+      },
+      "updateInjected": {
+        "header": "Vui lòng chia sẻ thông tin tiêm chủng",
+        "title": "Bạn có gặp phải bất kì triệu chứng nào sau khi tiêm vắc xin không?",
+        "description": "Vui lòng chia sẻ thông tin tiêm chủng của Quý cư dân",
+        "date": "Ngày tiêm",
+        "location": "Địa điểm tiêm",
+        "placeholderLocation": "Lựa chọn bệnh viện",
+        "type": "Loại Vắc xin",
+        "placeholderType": "Lựa chọn loại Vắc xin",
+        "round": "Lượt tiêm",
+        "firstRound": "Mũi thứ 1",
+        "secondRound": "Mũi thứ 2",
+        "images": "Ảnh chụp giấy chứng nhận tiêm vắc xin" ,
+        "titleServay": "Triệu chứng sau tiêm",
+        "addImage": "Thêm ảnh"
+      },
+      "surveySuccess": {
+        "header": "Gửi câu trả lời thành công!",
+        "title": "Cảm ơn vì đã thực hiện khảo sát!",
+        "description": "Cảm ơn bạn đã tham gia khảo sát và chung tay phòng chống đẩy lùi Covid-19. Bạn có thể thực hiện khảo sát này nhiều lần để cập nhật trạng thái tiêm chủng của bản thân.",
+        "button": "Quay về trang chủ"
+      }
+    },
+    "vaccineRegistrationScreen": {
+      "errors": {
+        "phoneInUsed": "Số điện thoại đã được đăng ký thông tin tiêm chủng"
+      },
+      "stepOne": {
+        "title": "Bước 1: Thông tin cá nhân",
+        "description": "Các thông tin dưới đây sẽ được sử dụng để xác thực trong quá trình đăng ký tiêm vắc xin. Quý cư dân vui lòng khai báo và kiểm tra chính xác thông tin cá nhân!",
+        "isRegistered": "Tôi đang đăng ký cho người người khác bằng số điện thoại của tôi",
+        "fullName": "Họ và tên",
+        "birthday": "Ngày sinh",
+        "gender": "Giới tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "phoneNumber": "Số điện thoại nhận thông tin tiêm chủng",
+        "nation": "Dân tộc",
+        "nationPlaceholder": "Chọn dân tộc",
+        "insurrance": "Bảo hiểm y tế (nếu có)",
+        "insurrancePlaceholder": "Nhập số bảo hiểm y tế",
+        "verificationType": "Loại giấy tờ xác minh",
+        "identityNumber": "Số CMND/CCCD",
+        "identityCard": "CMND/CCCD",
+        "passport": "Hộ chiếu",
+        "birthCertificate": "Giấy khai sinh",
+        "identityIssueDate": "Ngày cấp",
+        "identityIssuePlace": "Nơi cấp",
+        "imageIdentityNumber": "Ảnh chụp hoặc scan của CMND/CCCD",
+        "imageIdentityNumberDesc": "Vui lòng cung cấp ảnh đầy đủ và rõ nét",
+        "frontImageidentityNumber": "Ảnh mặt trước",
+        "backImageidentityNumber": "Ảnh mặt sau",
+        "passportNumber": "Số hộ chiếu",
+        "passportSignDate": "Ngày cấp",
+        "passportExpiryDate": "Có giá trị đến",
+        "country": "Quốc tịch",
+        "passportScanTitle": "Ảnh chụp hoặc scan của hộ chiếu",
+        "passportScanDesc": "Vui lòng cung cấp ảnh đầy đủ và rõ nét",
+        "passportScan": "Thêm ảnh",
+        "birthCertificateScan": "Ảnh chụp hoặc scan của giấy khai sinh",
+        "birthCertificateScanDesc": "Vui lòng cung cấp ảnh đầy đủ và rõ nét",
+        "descritionLocation": "Chọn thông tin địa chỉ theo thông tin ghi trên CMND/CCCD",
+        "city": "Tỉnh/Thành phố",
+        "district": "Quận/Huyện",
+        "commune": "Phường/Xã",
+        "province": "Thôn/Ấp/Tổ (nếu có)",
+        "provincePlaceholder": "Nhập địa chỉ thường trú ghi trên CMND/CCCD",
+        "career": "Nghề nghiệp",
+        "careerPlaceholder": "Chọn nghề nghiệp của bạn",
+        "placeWork": "Nơi công tác",
+        "placeWorkPlaceholder": "Nhập tên nơi công tác",
+        "continue": "Tiếp tục"
+      },
+      "stepOtp": {
+        "description": "Một tin nhắn SMS kèm mã OTP đã được gửi đến số {{phoneNumber}}. Vui lòng nhập vào ô phía dưới."
+      },
+      "stepTwo": {
+        "title": "Bước 2: Thông tin cư trú tại Ecopark",
+        "stay": "Cư trú tại",
+        "owner": "Chủ hộ",
+        "relationship": "Quan hệ với chủ hộ",
+        "relationshipPlaceholder": "Chọn mối quan hệ với chủ hộ",
+        "tempLeaveFromDate": "Bắt đầu cư trú từ",
+        "stayStatusCode": "Tình trạng nhân khẩu tại Ecopark",
+        "otherScanTitle": "Ảnh chụp/scan chứng minh quan hệ với chủ hộ",
+        "otherScanDesc": "Vui lòng cung cấp ảnh đầy đủ và rõ nét của một trong những loại giấy tờ sau: Hộ khẩu, giấy đăng kí tạm trú, giấy đăng kí kết hôn, hợp đồng mua/thuê nhà, hoặc giấy tờ chứng minh quan hệ nhân thân có xác nhận của địa phương (tối đa 3 ảnh).",
+        "back": "Quay lại"
+      },
+      "stepThere": {
+        "title": "Bước 3: Xác nhận thông tin",
+        "address": "Địa chỉ thường trú"
+      },
+      "stepFour": {
+        "title": "Đăng ký thành công",
+        "description": "Đăng ký tiêm vắc xin Covid-19 của Quý cư dân đã được tiếp nhận. Chúng tôi sẽ xác thực các thông tin và thông báo kết quả trong vòng 3-5 ngày tới.",
+        "goToHome": "Về trang chủ"
+      }
+    },
+    "ecoId": {
+      "ecoIdOnboardingScreen": {
+        "screen1": {
+          "title": "CƯ DÂN HIỆN ĐẠI",
+          "text": "Bạn là cư dân hoặc đang kinh doanh cho thuê các căn hộ tại Ecopark? Kết nối với EcoID - tính năng mới trên EcoOne - để quản lý thông tin, thanh toán hoá đơn hàng tháng cho gia đình mình dễ dàng và an toàn nhé."
+        },
+        "screen2": {
+          "title": "THANH TOÁN THÔNG MINH",
+          "text": "Từ giờ, bạn sẽ không còn phải lo lắng về những hoá đơn cần trả mỗi tháng nữa. EcoID sẽ giúp bạn truy cập, quản lý lịch sử hoá đơn, thanh toán mọi loại chi phí dịch vụ trực tiếp an toàn qua EcoOne."
+        },
+        "screen3": {
+          "button": "Kích hoạt",
+          "title": "TÍNH NĂNG SẮP RA MẮT",
+          "text": "Trong tương lai, EcoID sẽ giúp mỗi gia đình quản lý thành viên, và gia hạn thẻ xe buýt trực tiếp qua EcoOne. Cùng chờ đợi những tính năng sắp tới của EcoID dành riêng cho các cư dân tại Ecopark nhé!"
+        }
+      },
+      "ecoIdSelectResidentScreen": {
+        "description": "Vui lòng chọn để xác thực tên của bạn và căn hộ bạn sở hữu:",
+        "contactUs": "Liên hệ",
+        "continue": "Tiếp tục",
+        "success": {
+          "header": "BẠN ĐÃ SẴN SÀNG!",
+          "body": "Chúc mừng, bạn đã chính thức trở thành cư dân thông minh tại Ecopark! Cùng trải nghiệm và đón chờ những tính năng mới của EcoID trên EcoOne bạn nhé.",
+          "start": "Bắt đầu nào!"
+        },
+        "failed": {
+          "header": "ĐÃ XẢY RA LỖI",
+          "body": "Hệ thống đang không tìm thấy thông tin của bạn - nhưng đừng lo lắng! Vui lòng liên hệ với chủ hộ của bạn để được cập nhật thông tin trên hệ thống. Nếu bạn là chủ căn hộ, vui lòng liên hệ trực tiếp với EcoPM và thông tin của bạn sẽ được cập nhật ngay.",
+          "contactUs": "Trợ giúp"
+        }
+      },
+      "ecoIdSyncSuccessfulScreen": {
+        "header": "BẠN ĐÃ SẴN SÀNG!",
+        "body": "Chúc mừng, bạn đã chính thức trở thành cư dân thông minh tại Ecopark! Cùng trải nghiệm và đón chờ những tính năng mới của EcoID trên EcoOne bạn nhé.",
+        "start": "Bắt đầu nào!"
+      },
+      "ecoIdHouseholdScreen": {
+        "yourBills": "Hoá đơn nước & phí dịch vụ",
+        "nextDueDate": "Hạn thanh toán",
+        "paymentHistory": "Lịch sử",
+        "payBills": "Thanh toán",
+        "householdMembers": "Thành viên gia đình"
+      },
+      "ecoIdFailedScreen": {
+        "title": "RẤT TIẾC, ĐÃ XẢY RA LỖI",
+        "message": "Vui lòng thử lại hoặc liên hệ trực tiếp với chúng tôi để được trợ giúp.",
+        "contactUs": "Trợ giúp"
+      },
+      "ecoIdLoading": "Đang tải dữ liệu",
+      "ecoIdPreparePaymentScreen": {
+        "vnd": "{{price}} VNĐ",
+        "total": "Tổng",
+        "overpaidDeduction": "Đã đóng",
+        "billTotal": "Cần thanh toán",
+        "totalAmount": "Tổng cộng",
+        "proceedToPayment": "Thanh toán",
+        "dueDate": "Hạn thanh toán",
+        "billTypes": {
+          "DIEN": "Dịch vụ điện",
+          "NUOC": "Dịch vụ nước",
+          "VAT": "Phí dịch vụ",
+          "KQDC": "Đặt cọc, ký quỹ",
+          "XE": "Dịch vụ xe",
+          "THE": "Phí làm thẻ",
+          "DVKT": "Dịch vụ kĩ thuật gia tăng",
+          "VSGT": "Dịch vụ vệ sinh gia tăng",
+          "CLB": "Dịch vụ CLB",
+          "BAT": "DV cho thuê hàng rào tạm",
+          "TRAM": "Doanh thu cho thuê trạm",
+          "KYQUY": "Đặt cọc ký quỹ thi công",
+          "DATCOCBAT": "Đặt cọc thuê hàng rào",
+          "DOTAXI": "Doanh thu đỗ Taxi",
+          "PBH": "Phí bảo hiểm",
+          "OTHER": "Phí dịch vụ"
+        }
+      },
+      "ecoIdPaymentScreen": {
+        "confirmDiscardMessage": "Bạn chưa hoàn thành các bước thanh toán. Bạn có muốn thoát không?",
+        "success": {
+          "header": "THANH TOÁN THÀNH CÔNG",
+          "body": "Bạn đã thanh toán phí dịch vụ thành công qua EcoOne!\nNhấn OK để xem hoá đơn.",
+          "button": "OK"
+        },
+        "failed": {
+          "header": "THANH TOÁN KHÔNG THÀNH CÔNG",
+          "body": "Đã có lỗi xảy ra với quá trình thanh toán của bạn. Vui lòng thử lại hoặc liên hệ với Hỗ trợ để được giúp đỡ.",
+          "bodyWithMessage": "Rất tiếc, đã xảy ra lỗi: <b>{{message}}</b> trong quá trình thanh toán. Vui lòng sử dụng mã đơn hàng của bạn <b>{{orderRef}}</b> và liên hệ với EcoPM để được trợ giúp kịp thời.",
+          "contactUs": "Hỗ trợ"
+        },
+        "promotion": {
+          "title": "VẬY LÀ XONG RỒI ĐÓ!",
+          "desc": "Chúc mừng bạn đã thanh toán thành công và trở thành một trong 4000 căn hộ nhận được ưu đãi lên đến 500K cho Phí Quản lí Q3 2021!",
+          "button": "Xem hoá đơn"
+        }
+      },
+      "ecoIdPaymentHistoryScreen": {
+        "newestToOldest": "Mới nhất",
+        "oldestToNewest": "Cũ nhất",
+        "sort": "Sắp xếp theo",
+        "filter": "Lọc theo",
+        "paidOn": "Thanh toán vào {{date}}",
+        "paymentMethod": {
+          "ecoone": "EcoOne",
+          "cash": "Tiền mặt",
+          "bank_transfer": "Chuyển khoản",
+          "card": "Thẻ"
+        },
+        "noPaymentHistory": "Bạn chưa có hoá đơn nào.",
+        "billDetails": {
+          "billNumber": "Số hoá đơn",
+          "billDescription": "Khoản thu",
+          "billIssueDate": "Ngày nhận hoá đơn",
+          "billFinalPaymentDate": "Ngày thanh toán",
+          "billDetails": "Chi tiết",
+          "prepaidAmount": "Đã thanh toán",
+          "billDueDate": "Hạn thanh toán"
+        }
+      }
+    },
+    "electricBill": {
+      "addNewCustomerCode": {
+        "companyName": "CÔNG TY CỔ PHẦN ĐIỆN NƯỚC LẮP MÁY HẢI PHÒNG",
+        "companyDetails": "Haiphong electricity water machine assembly join stock company",
+        "customerCode": "Mã khách hàng",
+        "note": "Mã khách hàng được ghi trong hợp đồng sử dụng điện hoặc các hóa đơn đã nhận được trước đó.",
+        "modalTitle": "Xác nhận mã khách hàng",
+        "modalHeader": "Không tìm thấy thông tin",
+        "modalDetails": "Hóa đơn của Quý cư dân có thể đã được thanh toán hoặc Mã khách hàng chưa chính xác.\nVui lòng kiểm tra lại!"
+      },
+      "customerCodeNote": "Mã khách hàng được lưu sau lần thanh toán thành công đầu tiên.",
+      "addCustomerCode": "Thêm mã khách hàng",
+      "totalBill": "{{total}} hoá đơn cần thanh toán",
+      "totalBills": "{{total}} hoá đơn cần thanh toán",
+      "listBills": {
+        "note": "Quý cư dân xem chi tiết hóa đơn bằng cách nhập mã khách hàng tại mục tra cứu hóa đơn tiền điện trên website [diennuochp.com.vn]",
+        "billTitle": "KỲ HOÁ ĐƠN THÁNG {{month}}/{{year}}",
+        "customerCode": "Mã khách hàng",
+        "customerName": "Tên khách hàng",
+        "customerAddress": "Địa chỉ",
+        "totalPay": "Tổng tiền",
+        "totalVnd": "{{total}} VNĐ",
+        "payNow": "Thanh toán",
+        "cardType": "Phương thức thanh toán",
+        "domestic": "Thẻ ATM nội địa",
+        "international": "Thẻ quốc tế Visa, Master, JCB",
+        "paymentFee":"Phí thanh toán {{paymentFee}} VNĐ"
+      },
+      "deleteCodeModal": {
+        "title": "Xoá mã khách hàng",
+        "header": "Xác nhận xoá mã: {{code}}",
+        "details": "Quý cư dân sẽ không nhận được thông báo hóa đơn qua EcoOne trong kỳ thanh toán.",
+        "delete": "Xoá mã"
+      },
+      "deleteCodeSuccessModal": {
+        "header": "Xoá mã thành công!",
+        "details": "Quý cư dân đã xoá thành công mã khách hàng {{code}}."
+      },
+       "emptyPaymentHistory": "Hiện chưa có hóa đơn điện thanh toán trực tiếp qua EcoOne được ghi nhận",
+       "paymentHistory": {
+        "note": "Các hóa đơn điện thanh toán trực tiếp qua EcoOne được ghi nhận tại đây",
+        "billTitle": "KỲ HOÁ ĐƠN THÁNG {{- month}}",
+        "paidAt": "Thời gian"
+      }
+    },
+    "paymentScreen": {
+      "confirmDiscardMessage": "Bạn chưa hoàn thành các bước thanh toán. Bạn có muốn thoát không?",
+      "errorMessage": "Đã xảy ra lỗi! [{{message}}] Vui lòng sử dụng mã đơn hàng của bạn {{orderRef}} và liên hệ với EcoPM để nhận hỗ trợ.",
+      "errorMessageEcotekSupport": "Đã xảy ra lỗi! [{{message}}] Vui lòng sử dụng mã đơn hàng của bạn {{orderRef}} và liên hệ với Ecotek để nhận hỗ trợ.",
+      "paymentSuccessful": {
+        "title": "THANH TOÁN THÀNH CÔNG",
+        "message": "Bạn đã thanh toán hoá đơn thành công qua EcoOne!"
+      },
+      "paymentFailed": {
+        "title": "THANH TOÁN KHÔNG THÀNH CÔNG"
+      }
+    }
+  },
+  "headers": {
+    "bookmarkScreen": "Trang đã thích",
+    "busCardScreen": "Thẻ xe buýt",
+    "busCardVerificationScreen": {
+      "add": "Thêm thẻ xe buýt",
+      "edit": "Sửa thông tin thẻ xe buýt"
+    },
+    "busCardPriceChartScreen": "Bảng Giá",
+    "busCardInstructions": "Hướng Dẫn",
+    "busCardInformationScreen": "Thông tin",
+    "profile": "Cá nhân",
+    "busSettings": "Cài đặt",
+    "busSchedule": "Lịch trình xe buýt",
+    "signUpScreen": "Đăng ký",
+    "addPhoneNumberScreen": "Hãy cập nhật số điện thoại",
+    "verificationScreen": "Phải bạn thật không?",
+    "basicInfoScreen": "Thông tin cơ bản",
+    "interestScreen": "Sở thích",
+    "signInScreen": "Chào mừng quay trở lại!",
+    "forgotPasswordScreen": "Chúng tôi biết là khó nhớ mà",
+    "resetPasswordScreen": "Cơ hội đây rồi!",
+    "settings": "Cài đặt",
+    "contact": "Liên hệ",
+    "language": "Ngôn ngữ",
+    "changePassword": "Đổi mật khẩu",
+    "busShortcutScreen": "Phím tắt",
+    "helpDesk": "EcoFeedback",
+    "ticketDetails": "Nội dung chi tiết",
+    "helpDeskNewTicket": "Tạo yêu cầu mới",
+    "notifications": "Thông báo",
+    "newsScreen": "Tin tức",
+    "ecoIdSynchronization": "Tên của bạn là?",
+    "householdSelectionScreen": "Căn hộ của tôi",
+    "payment": "Thanh toán",
+    "paymentFailure": "Thanh toán thất bại",
+    "prepareBillPayment": "Bảng tính chi tiết phí dịch vụ",
+    "paymentHistory": "Lịch sử thanh toán",
+    "syncBusCard": "Kích hoạt thẻ",
+    "extendBusCard": "Gia hạn thẻ",
+    "ecoBusPaymentScreen": "Thanh toán",
+    "vaccineRegistration": "Đăng ký thông tin tiêm chủng",
+    "vaccineRegistrationList": "Quản lý thông tin",
+    "vaccineDashboard": "Chương trình tiêm chủng Covid-19",
+    "electricBill": "Quản lý mã khách hàng",
+    "electricPayment": "Thanh toán hoá đơn điện",
+    "electricPaymentHistory": "Lịch sử thanh toán điện"
+  },
+  "errors": {
+    "required": "{{field}} là bắt buộc",
+    "unknown": "Đã có lỗi xảy ra, vui lòng thử lại!",
+    "user": {
+      "first_name": {
+        "invalid": "Vui lòng điền tên hợp lệ"
+      },
+      "last_name": {
+        "invalid": "Vui lòng điền họ hợp lệ"
+      },
+      "phone_number": {
+        "invalid": "Số điện thoại không hợp lệ",
+        "unavailable": "Số điện thoại đã được sử dụng"
+      },
+      "otp_limit": "OTP hết hạn. Vui lòng thử lại sau giây lát",
+      "token": {
+        "invalid": "Đã xảy ra lỗi. Vui lòng khởi động lại ứng dụng và thử lại."
+      },
+      "password": {
+        "invalid": "Mật khẩu phải có ít nhất 6 ký tự",
+        "notMatched": "Mật khẩu nhập lại không trùng khớp"
+      },
+      "avatar": {
+        "invalid": "Ảnh đại diện không hợp lệ. Vui lòng chọn ảnh khác!"
+      },
+      "email": {
+        "unavailable": "Email đã được đăng ký",
+        "invalid": "Email không đúng"
+      },
+      "provider": {
+        "error": {
+          "title": "Ồ...không phải lỗi của bạn",
+          "message": "Bạn đã đăng ký tài khoản qua [{{provider}}]. Vui lòng đăng nhập lại bằng tài khoản đó."
+        }
+      },
+      "temporarily_blocked": "Tài khoản bị khóa tạm thời do quá số lần nhập sai.\nVui lòng thử lại sau 5 phút."
+    },
+    "attachments": {
+      "attachmentLimit": "Tệp đính kèm vượt quá số lượng!",
+      "attachmentLimitBody": "Mỗi tin nhắn chỉ có thể đính kèm {{attachmentLimit}} tệp.",
+      "failedUpload": "Tải p đính kèm lỗi.\nVui lòng thử lại!"
+    },
+    "authentication": {
+      "missing_parameters": "Vui lòng nhập email và mật khẩu",
+      "unauthenticated": "Số điện thoại hoặc mật khẩu không đúng",
+      "incorrect_email_format": "Vui lòng điền email hợp lệ",
+      "missing_email": "Vui lòng nhập email",
+      "missing_password": "Vui lòng nhập mật khẩu",
+      "missing_firstName": "Vui lòng nhập tên",
+      "missing_lastName": "Vui lòng nhập họ",
+      "user_not_found": "Vui lòng nhập email hợp lệ",
+      "password_confirmation_error": "Mật khẩu phải giống nhau",
+      "authentication": {
+        "unauthenticated": "Thông tin đăng nhập không đúng"
+      },
+      "email": {
+        "unavailable": "Email đã được sử dụng"
+      }
+    },
+    "otp_code": {
+      "invalid": "OTP không đúng"
+    },
+    "otp_quota": {
+      "unavailable": "Vui lòng chờ để gửi lại OTP"
+    },
+    "record": {
+      "not_found": "Đã có lỗi xảy ra. Vui lòng thử lại sau!"
+    },
+    "current_password": {
+      "incorrect": "Mật khẩu hiện tại không đúng"
+    },
+    "bus": {
+      "card": {
+        "not_found": "Thẻ không tồn tại"
+      }
+    },
+    "buscard": {
+      "card_number_duplication": {
+        "invalid": "Bạn đã liên kết với thẻ này"
+      }
+    },
+    "location_handover_campaign": {
+        "not": {
+            "exist": "Căn bàn giao không tồn tại"
+        },
+         "can":{
+            "not":{
+                "schedule": "Căn bàn giao không thể đặt lịch"
+            }
+        }
+    },
+    "phone_number.not.match":{
+        "not":{
+            "match": "Số điện thoại không khớp với căn bàn giao"
+        }
+    }
+  },
+  "navigation": {
+    "tabs": {
+      "userProfile": "Hồ sơ"
+    }
+  },
+  "validation": {
+    "OTPVerificationScreen": {
+      "length": "Phải có 6 chữ số",
+      "presence": "Không thể bỏ trống",
+      "numericality": "Chỉ được là số"
+    },
+    "signInScreen": {
+      "phonePresence": "Không thể bỏ trống",
+      "phoneFormat": "Phải bắt đầu với 84 hoặc 0 rồi đến chín số còn lại",
+      "passwordPresence": "Không thể bỏ trống",
+      "passwordLength": "Phải có nhiều hơn 5 kí tự"
+    },
+    "signUpScreen": {
+      "emailPresence": "Không thể bỏ trống",
+      "emailFormat": "Nhập email hợp lệ",
+      "passwordPresence": "Không thể bỏ trống",
+      "passwordLength": "Phải nhiều hơn 5 kí tự",
+      "firstNamePresence": "Vui lòng điền tên",
+      "lastNamePresence": "Vui lòng điền họ",
+      "termsAndConditions": "Vui lòng kiểm tra lại để tiếp tục"
+    },
+    "busCardVerificationScreen": {
+      "livingAreaPresence": "Không thể bỏ trống",
+      "cardNumberPresence": "Không thể bỏ trống",
+      "cardNumberLength": "Phải có 8 chữ số",
+      "cardNumberNumericality": "Chỉ được là số",
+      "cardNumberFormat": "Số thẻ không hợp lệ"
+    },
+    "updateProfileScreen": {
+      "emailFormat": "Email không hợp lệ"
+    },
+    "changePasswordScreen": {
+      "retypePassword": "Mật khẩu gõ lại phải giống với mật khẩu mới"
+    }
+  },
+  "actions": {
+    "edit": "Chỉnh sửa",
+    "ok": "OK",
+    "done": "Xong",
+    "back": "Trở lại",
+    "save": "Lưu",
+    "yes": "Có",
+    "no": "Không",
+    "next": "Tiếp tục",
+    "finish": "Hoàn tất",
+    "create": "Tạo mới",
+    "verify": "Xác thực",
+    "goBack": "Quay lại",
+    "confirm": "Xác nhận",
+    "submit": "Gửi",
+    "loading": "Đang tải",
+    "cancel": "Huỷ",
+    "close": "Đóng",
+    "share": "Chia sẻ",
+    "continue": "Continue",
+    "understand": "Đã hiểu",
+    "contactUs": "Hỗ trợ"
+  },
+  "googleSignin": {
+    "cancelled": "Đăng nhập bị huỷ",
+    "inProgress": "Quá trình đăng nhập đang được xử lý",
+    "playServicesUnavailable": "Không có dịch vụ Play",
+    "failed": "Đăng nhập không thành công"
+  },
+  "date": {
+    "daysOfWeek": {
+      "all": "Hàng ngày",
+      "mon": "Thứ hai",
+      "tue": "Thứ ba",
+      "wed": "Thứ tư",
+      "thu": "Thứ năm",
+      "fri": "Thứ sáu",
+      "sat": "Thứ bảy",
+      "sun": "Chủ nhật"
+    }
+  }
+}

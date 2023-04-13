@@ -1,0 +1,355 @@
+{
+  "project_info": {
+    "project_number": "1073217317494",
+    "firebase_url": "https://ecoone-2.firebaseio.com",
+    "project_id": "ecoone-2",
+    "storage_bucket": "ecoone-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:11b355ecf7944d07a44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-6lc58e5glpgp4oi99r8k54df0cg6fuib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-m8c56tjv462du27eh1bsmunvg38vhdmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone",
+            "certificate_hash": "b8ba25f74e4f27e695e7cdac137d781bc9e0f152"
+          }
+        },
+        {
+          "client_id": "1073217317494-mcbj7b49ta0qhusg005j7fqgflcgkh9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone",
+            "certificate_hash": "b939e9c1da89a77fc2ae626a69d47ef802c01170"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:de982c22f4df376ca44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-gmt3hk12v62h67ida5po3vhateduc12f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.beta",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:9c10968d586b2c29a44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-a47n42oe817q6j8hhhvl0v557o3posuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.demo",
+            "certificate_hash": "b8ba25f74e4f27e695e7cdac137d781bc9e0f152"
+          }
+        },
+        {
+          "client_id": "1073217317494-dfe4pekalm1qpf0v4hdv2pqesta0pm3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.demo",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-ik85qsksoo9jm5suu145l8d85298c07l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.demo",
+            "certificate_hash": "b939e9c1da89a77fc2ae626a69d47ef802c01170"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:fd6062230b11c72ba44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-1qqpu8sqv420urd6pvmdahbekcknfvcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.development",
+            "certificate_hash": "b8ba25f74e4f27e695e7cdac137d781bc9e0f152"
+          }
+        },
+        {
+          "client_id": "1073217317494-5ock0brpr47dd91bc3ijde67cetpk8nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.development",
+            "certificate_hash": "b939e9c1da89a77fc2ae626a69d47ef802c01170"
+          }
+        },
+        {
+          "client_id": "1073217317494-k1qihjkvt6k7k79aub6poa854ed0mqvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.development",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:b31cba29a3cdf22da44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone.featureFlag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-62pju7l6if73gjm9l07qhh15i64p6fj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.featureFlag",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-qib14boijevqrjefobln15lj2flcvoea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.featureFlag",
+            "certificate_hash": "b939e9c1da89a77fc2ae626a69d47ef802c01170"
+          }
+        },
+        {
+          "client_id": "1073217317494-rutaa0rjt34embe3rq5eeloctdmca7k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.featureFlag",
+            "certificate_hash": "b8ba25f74e4f27e695e7cdac137d781bc9e0f152"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073217317494:android:f12830918ba3fd85a44d57",
+        "android_client_info": {
+          "package_name": "com.ecoone.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073217317494-hfhqnsc5mjpi14vbovojbkbm60380dqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.staging",
+            "certificate_hash": "b939e9c1da89a77fc2ae626a69d47ef802c01170"
+          }
+        },
+        {
+          "client_id": "1073217317494-lm4lg95uhicvu816tnnha53hupqogjjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.staging",
+            "certificate_hash": "b8ba25f74e4f27e695e7cdac137d781bc9e0f152"
+          }
+        },
+        {
+          "client_id": "1073217317494-m98ghrd8narluu1i8obur54ur8o933ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoone.staging",
+            "certificate_hash": "eca0e93674440050241cf84d53a250d531c9902f"
+          }
+        },
+        {
+          "client_id": "1073217317494-urrmqg5js5e69e86dbs639q6g64or84n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxpXknx8xKzp_QV1ZG1VZTnGuXOuugcPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073217317494-6vj3f31g50nhvo2asjev76gqmtk09nnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073217317494-1s7f0enhiek938c3l6g2au7hn98s57jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

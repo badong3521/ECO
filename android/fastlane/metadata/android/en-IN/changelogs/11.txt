@@ -1,0 +1,1 @@
+This releases includes the much awaited notification feature. You can now get notices and announcements from Ecopark and EcoPM directly on your phone.

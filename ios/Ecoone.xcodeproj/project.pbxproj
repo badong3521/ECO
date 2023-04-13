@@ -1,0 +1,1759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* EcooneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EcooneTests.m */; };
+		0AD77E39969D42948A0A27EA /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E346B11FCFF04C2891207B1A /* SimpleLineIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1DE7421CE2EE490EAAF97302 /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA22D273EFAA4268873F687C /* Lora-Italic.ttf */; };
+		1E5086171B148801A47E0C17 /* libPods-EcooneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0E625C895B6E5E8838078E /* libPods-EcooneTests.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* EcooneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EcooneTests.m */; };
+		2F7BBF88DF0441EC8C45FC56 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3E7AE727D4C59AAA1A1AE /* Cabin-Bold.ttf */; };
+		3AD14BFDFC724986A9C8C7C0 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A069385923B04062A3732AC1 /* Cabin-Regular.ttf */; };
+		4AE1A49E0AE74D16A3DB52BA /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C1D66CB260C4A78A44F42F2 /* FontAwesome5_Regular.ttf */; };
+		4C2164F2BCBEACC65C2B2FE1 /* libPods-Ecoone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D2D3266A9E07504ED2BE7 /* libPods-Ecoone.a */; };
+		4F3FA53798D5417EA3398D59 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E6A314D174A4D5B95346142 /* Cabin-SemiBold.ttf */; };
+		4F45A7FAE91942CA87D659E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF23ACE05044D458FC5736B /* Ionicons.ttf */; };
+		54A69E3B0B2A4DD790CC7EDE /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 785B6F73674942BB85B039BE /* Foundation.ttf */; };
+		5AE97316436347DEBAA8114F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD02C2534C6A43D2944F0DE5 /* Octicons.ttf */; };
+		5E59927DC31E4C40A8FFDCCF /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730163596CD345CBBC25EB96 /* Lora-SemiBold.ttf */; };
+		643FAD1E3D5D46899BF946EC /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38BC16D5AB74F97A39F6AD6 /* FontAwesome5_Brands.ttf */; };
+		6E0485552570DB9500889A6A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0485542570DB9400889A6A /* Feather.ttf */; };
+		6E1D5D48240DFC8E00F9C0CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E1D5D47240DFC8E00F9C0CD /* GoogleService-Info.plist */; };
+		6E70CC3824374022007B2532 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC2C24374021007B2532 /* Roboto-Regular.ttf */; };
+		6E70CC3924374022007B2532 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC2D24374021007B2532 /* Roboto-BoldItalic.ttf */; };
+		6E70CC3A24374022007B2532 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC2E24374021007B2532 /* Roboto-Italic.ttf */; };
+		6E70CC3B24374022007B2532 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC2F24374022007B2532 /* Roboto-MediumItalic.ttf */; };
+		6E70CC3C24374022007B2532 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3024374022007B2532 /* Roboto-LightItalic.ttf */; };
+		6E70CC3D24374022007B2532 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3124374022007B2532 /* Roboto-Black.ttf */; };
+		6E70CC3E24374022007B2532 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3224374022007B2532 /* Roboto-BlackItalic.ttf */; };
+		6E70CC3F24374022007B2532 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3324374022007B2532 /* Roboto-Light.ttf */; };
+		6E70CC4024374022007B2532 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3424374022007B2532 /* Roboto-Bold.ttf */; };
+		6E70CC4124374022007B2532 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3524374022007B2532 /* Roboto-Medium.ttf */; };
+		6E70CC4224374022007B2532 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3624374022007B2532 /* Roboto-Thin.ttf */; };
+		6E70CC4324374023007B2532 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E70CC3724374022007B2532 /* Roboto-ThinItalic.ttf */; };
+		6E9D56CE248903160002E6AD /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D56CD248903150002E6AD /* AppCenter-Config.plist */; };
+		6EABFCBC24ADC21A002F4FC7 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EABFCBB24ADC21A002F4FC7 /* MaterialCommunityIcons.ttf */; };
+		6EB629682474D57400A3C6FB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB629652474D57300A3C6FB /* MaterialIcons.ttf */; };
+		6EB629692474D57400A3C6FB /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB629662474D57300A3C6FB /* AntDesign.ttf */; };
+		6EB6296A2474D57400A3C6FB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EB629672474D57400A3C6FB /* EvilIcons.ttf */; };
+		6EC70500259D64610088EB20 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		6ECE4AD1249E1BC10077CF60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE4AD3249E1BC10077CF60 /* InfoPlist.strings */; };
+		6EE506DD249885A300E37C37 /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE506DC249885A300E37C37 /* empty.swift */; };
+		71BB253FA3A246FC89358087 /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C6FD1CAC6F14192B773F515 /* Lora-Bold.ttf */; };
+		7C64B2A8278D24AA00B9F5BE /* LinkPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C64B2A7278D24A900B9F5BE /* LinkPresentation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8329E43C654749418C6017A7 /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18DAED562E004945BA353CA5 /* Cabin-Medium.ttf */; };
+		893EAEA1D0E64AC0A6867CD0 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BED32E5D066428C8E7F000F /* Lora-Regular.ttf */; };
+		8F138AD726BA4DD5A9501E83 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EED292ED4A149078009B9BF /* Entypo.ttf */; };
+		A4FE42E93B77453A925293A9 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70CE1678EF464266B1D80F57 /* Fontisto.ttf */; };
+		AB17C51DA2D14FE5AED14D6E /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81409CB82C384C63A4BD7EC7 /* FontAwesome5_Solid.ttf */; };
+		B2BA14C2005F57A988C1858C /* libPods-Ecoone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D6CFA0E78C837C7F54060 /* libPods-Ecoone-tvOSTests.a */; };
+		C01152E1E4E8442BB381F1E8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26916D95FD334FD7A6294465 /* Zocial.ttf */; };
+		ED6021DA797658042DA432D7 /* libPods-Ecoone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF49126D89460E6AAE5F433 /* libPods-Ecoone-tvOS.a */; };
+		F0153224EC0C417A8D06F043 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1366CB34F184938917F3CBC /* Cabin-Italic.ttf */; };
+		FF908DD2A4EA473A914C90A8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EC395A6D5A947C9887AB75A /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Ecoone;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Ecoone-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* EcooneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcooneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EcooneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcooneTests.m; sourceTree = "<group>"; };
+		00FCDD0541D5D696246A4C9B /* Pods-EcooneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcooneTests.release.xcconfig"; path = "Target Support Files/Pods-EcooneTests/Pods-EcooneTests.release.xcconfig"; sourceTree = "<group>"; };
+		02F07D0903A726B2AC52F420 /* Pods-EcooneTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcooneTests.beta.xcconfig"; path = "Target Support Files/Pods-EcooneTests/Pods-EcooneTests.beta.xcconfig"; sourceTree = "<group>"; };
+		0C6FD1CAC6F14192B773F515 /* Lora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Bold.ttf"; path = "../src/assets/fonts/Lora-Bold.ttf"; sourceTree = "<group>"; };
+		0EC395A6D5A947C9887AB75A /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EcoOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Ecoone/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Ecoone/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Ecoone/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Ecoone/main.m; sourceTree = "<group>"; };
+		173F3750700FBEB8BA3037C4 /* Pods-Ecoone-tvOS.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOS.demo.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOS/Pods-Ecoone-tvOS.demo.xcconfig"; sourceTree = "<group>"; };
+		18DAED562E004945BA353CA5 /* Cabin-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Medium.ttf"; path = "../src/assets/fonts/Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		1A16957373F237DCFC8EF274 /* Pods-Ecoone.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone.beta.xcconfig"; path = "Target Support Files/Pods-Ecoone/Pods-Ecoone.beta.xcconfig"; sourceTree = "<group>"; };
+		1C1D66CB260C4A78A44F42F2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		21DFF12AD10C157BAD757F81 /* Pods-EcooneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcooneTests.debug.xcconfig"; path = "Target Support Files/Pods-EcooneTests/Pods-EcooneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26916D95FD334FD7A6294465 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		27DF0550D1244662913DB743 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Ecoone-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecoone-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Ecoone_Development.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ecoone_Development.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396EAD7712E079D0CCAFCBC9 /* Pods-EcooneTests.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcooneTests.demo.xcconfig"; path = "Target Support Files/Pods-EcooneTests/Pods-EcooneTests.demo.xcconfig"; sourceTree = "<group>"; };
+		3D90F637D0D39822ACB001DC /* Pods-Ecoone-tvOSTests.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOSTests.demo.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOSTests/Pods-Ecoone-tvOSTests.demo.xcconfig"; sourceTree = "<group>"; };
+		4236BD4D74E0D9FC52174E1D /* Pods-Ecoone-tvOS.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOS.staging.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOS/Pods-Ecoone-tvOS.staging.xcconfig"; sourceTree = "<group>"; };
+		432D6CFA0E78C837C7F54060 /* libPods-Ecoone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ecoone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0E625C895B6E5E8838078E /* libPods-EcooneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcooneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5375FD02FA6A6061536FB2 /* Pods-Ecoone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone.release.xcconfig"; path = "Target Support Files/Pods-Ecoone/Pods-Ecoone.release.xcconfig"; sourceTree = "<group>"; };
+		4EED292ED4A149078009B9BF /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		5EF23ACE05044D458FC5736B /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		614AB2503DD65765AE135FD3 /* Pods-Ecoone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOS/Pods-Ecoone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		62619739EA0A8F5BF6252D7D /* Pods-Ecoone-tvOS.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOS.beta.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOS/Pods-Ecoone-tvOS.beta.xcconfig"; sourceTree = "<group>"; };
+		6881A4F782A15E740D52B40A /* Pods-Ecoone-tvOSTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOSTests.staging.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOSTests/Pods-Ecoone-tvOSTests.staging.xcconfig"; sourceTree = "<group>"; };
+		6BED32E5D066428C8E7F000F /* Lora-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Regular.ttf"; path = "../src/assets/fonts/Lora-Regular.ttf"; sourceTree = "<group>"; };
+		6CD3E7AE727D4C59AAA1A1AE /* Cabin-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Bold.ttf"; path = "../src/assets/fonts/Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		6E0485542570DB9400889A6A /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		6E1D5D47240DFC8E00F9C0CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Ecoone/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E21DA16246D515A00605E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		6E564D3524E3EF570066F6B6 /* Ecoone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Ecoone.entitlements; path = Ecoone/Ecoone.entitlements; sourceTree = "<group>"; };
+		6E70CC2C24374021007B2532 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6E70CC2D24374021007B2532 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6E70CC2E24374021007B2532 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6E70CC2F24374022007B2532 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6E70CC3024374022007B2532 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		6E70CC3124374022007B2532 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		6E70CC3224374022007B2532 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6E70CC3324374022007B2532 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6E70CC3424374022007B2532 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6E70CC3524374022007B2532 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6E70CC3624374022007B2532 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		6E70CC3724374022007B2532 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6E9D56CD248903150002E6AD /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "Ecoone/AppCenter-Config.plist"; sourceTree = "<group>"; };
+		6EABFCBB24ADC21A002F4FC7 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		6EB629652474D57300A3C6FB /* MaterialIcons.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MaterialIcons.ttf; path = assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		6EB629662474D57300A3C6FB /* AntDesign.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AntDesign.ttf; path = assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		6EB629672474D57400A3C6FB /* EvilIcons.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EvilIcons.ttf; path = assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		6ECE4AD2249E1BC10077CF60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ECE4AD4249E1BE10077CF60 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE506DC249885A300E37C37 /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
+		70CE1678EF464266B1D80F57 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		7192D84E781FCF0F29A0DF68 /* Pods-Ecoone.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone.staging.xcconfig"; path = "Target Support Files/Pods-Ecoone/Pods-Ecoone.staging.xcconfig"; sourceTree = "<group>"; };
+		7258225B8333BDF13E2D59DD /* Pods-Ecoone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOSTests/Pods-Ecoone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		730163596CD345CBBC25EB96 /* Lora-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-SemiBold.ttf"; path = "../src/assets/fonts/Lora-SemiBold.ttf"; sourceTree = "<group>"; };
+		785B6F73674942BB85B039BE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		7C64B2A7278D24A900B9F5BE /* LinkPresentation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkPresentation.framework; path = System/Library/Frameworks/LinkPresentation.framework; sourceTree = SDKROOT; };
+		7C6EF5ED5F2D491DB51F239F /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		7E6A314D174A4D5B95346142 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBold.ttf"; path = "../src/assets/fonts/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		81409CB82C384C63A4BD7EC7 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		8882F01F6ED4CD245D8958B9 /* Pods-EcooneTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcooneTests.staging.xcconfig"; path = "Target Support Files/Pods-EcooneTests/Pods-EcooneTests.staging.xcconfig"; sourceTree = "<group>"; };
+		A069385923B04062A3732AC1 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Regular.ttf"; path = "../src/assets/fonts/Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		A38BC16D5AB74F97A39F6AD6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		A3F1D8B81B524553849B18A5 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		A41D2D3266A9E07504ED2BE7 /* libPods-Ecoone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ecoone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF49126D89460E6AAE5F433 /* libPods-Ecoone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ecoone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58FC3E51EBC15339800D8D2 /* Pods-Ecoone.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone.demo.xcconfig"; path = "Target Support Files/Pods-Ecoone/Pods-Ecoone.demo.xcconfig"; sourceTree = "<group>"; };
+		B74E8483ED4943458C6B3AC4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B7B1DECDE0861F213DF2077A /* Pods-Ecoone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOSTests/Pods-Ecoone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E346B11FCFF04C2891207B1A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		ECFDE733A38BC87931687803 /* Pods-Ecoone-tvOSTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOSTests.beta.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOSTests/Pods-Ecoone-tvOSTests.beta.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		ED582C2B73CE171B7FCDEDA4 /* Pods-Ecoone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Ecoone-tvOS/Pods-Ecoone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA6F955890431E8282C83A1 /* Pods-Ecoone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecoone.debug.xcconfig"; path = "Target Support Files/Pods-Ecoone/Pods-Ecoone.debug.xcconfig"; sourceTree = "<group>"; };
+		F1366CB34F184938917F3CBC /* Cabin-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Italic.ttf"; path = "../src/assets/fonts/Cabin-Italic.ttf"; sourceTree = "<group>"; };
+		FA22D273EFAA4268873F687C /* Lora-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Italic.ttf"; path = "../src/assets/fonts/Lora-Italic.ttf"; sourceTree = "<group>"; };
+		FD02C2534C6A43D2944F0DE5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5086171B148801A47E0C17 /* libPods-EcooneTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C64B2A8278D24AA00B9F5BE /* LinkPresentation.framework in Frameworks */,
+				6EC70500259D64610088EB20 /* JavaScriptCore.framework in Frameworks */,
+				4C2164F2BCBEACC65C2B2FE1 /* libPods-Ecoone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6021DA797658042DA432D7 /* libPods-Ecoone-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA14C2005F57A988C1858C /* libPods-Ecoone-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* EcooneTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* EcooneTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = EcooneTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Ecoone */ = {
+			isa = PBXGroup;
+			children = (
+				6E564D3524E3EF570066F6B6 /* Ecoone.entitlements */,
+				6E9D56CD248903150002E6AD /* AppCenter-Config.plist */,
+				6E1D5D47240DFC8E00F9C0CD /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				6E21DA0E246D4EEC00605E24 /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				6EE506DC249885A300E37C37 /* empty.swift */,
+			);
+			name = Ecoone;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C64B2A7278D24A900B9F5BE /* LinkPresentation.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				A41D2D3266A9E07504ED2BE7 /* libPods-Ecoone.a */,
+				AFF49126D89460E6AAE5F433 /* libPods-Ecoone-tvOS.a */,
+				432D6CFA0E78C837C7F54060 /* libPods-Ecoone-tvOSTests.a */,
+				4E0E625C895B6E5E8838078E /* libPods-EcooneTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				6ECE4AD3249E1BC10077CF60 /* InfoPlist.strings */,
+				13B07FAE1A68108700A75B9A /* Ecoone */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* EcooneTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				F7760341A2F546D2A375CECF /* Resources */,
+				B2A46A135FAC3E27A6E0B11D /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* EcoOne.app */,
+				00E356EE1AD99517003FC87E /* EcooneTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Ecoone-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Ecoone_Development.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A46A135FAC3E27A6E0B11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6F955890431E8282C83A1 /* Pods-Ecoone.debug.xcconfig */,
+				4E5375FD02FA6A6061536FB2 /* Pods-Ecoone.release.xcconfig */,
+				7192D84E781FCF0F29A0DF68 /* Pods-Ecoone.staging.xcconfig */,
+				ED582C2B73CE171B7FCDEDA4 /* Pods-Ecoone-tvOS.debug.xcconfig */,
+				614AB2503DD65765AE135FD3 /* Pods-Ecoone-tvOS.release.xcconfig */,
+				4236BD4D74E0D9FC52174E1D /* Pods-Ecoone-tvOS.staging.xcconfig */,
+				7258225B8333BDF13E2D59DD /* Pods-Ecoone-tvOSTests.debug.xcconfig */,
+				B7B1DECDE0861F213DF2077A /* Pods-Ecoone-tvOSTests.release.xcconfig */,
+				6881A4F782A15E740D52B40A /* Pods-Ecoone-tvOSTests.staging.xcconfig */,
+				21DFF12AD10C157BAD757F81 /* Pods-EcooneTests.debug.xcconfig */,
+				00FCDD0541D5D696246A4C9B /* Pods-EcooneTests.release.xcconfig */,
+				8882F01F6ED4CD245D8958B9 /* Pods-EcooneTests.staging.xcconfig */,
+				B58FC3E51EBC15339800D8D2 /* Pods-Ecoone.demo.xcconfig */,
+				173F3750700FBEB8BA3037C4 /* Pods-Ecoone-tvOS.demo.xcconfig */,
+				3D90F637D0D39822ACB001DC /* Pods-Ecoone-tvOSTests.demo.xcconfig */,
+				396EAD7712E079D0CCAFCBC9 /* Pods-EcooneTests.demo.xcconfig */,
+				1A16957373F237DCFC8EF274 /* Pods-Ecoone.beta.xcconfig */,
+				62619739EA0A8F5BF6252D7D /* Pods-Ecoone-tvOS.beta.xcconfig */,
+				ECFDE733A38BC87931687803 /* Pods-Ecoone-tvOSTests.beta.xcconfig */,
+				02F07D0903A726B2AC52F420 /* Pods-EcooneTests.beta.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7760341A2F546D2A375CECF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EABFCBB24ADC21A002F4FC7 /* MaterialCommunityIcons.ttf */,
+				6EB629662474D57300A3C6FB /* AntDesign.ttf */,
+				6EB629672474D57400A3C6FB /* EvilIcons.ttf */,
+				6EB629652474D57300A3C6FB /* MaterialIcons.ttf */,
+				6E70CC3124374022007B2532 /* Roboto-Black.ttf */,
+				6E70CC3224374022007B2532 /* Roboto-BlackItalic.ttf */,
+				6E70CC3424374022007B2532 /* Roboto-Bold.ttf */,
+				6E70CC2D24374021007B2532 /* Roboto-BoldItalic.ttf */,
+				6E0485542570DB9400889A6A /* Feather.ttf */,
+				6E70CC2E24374021007B2532 /* Roboto-Italic.ttf */,
+				6E70CC3324374022007B2532 /* Roboto-Light.ttf */,
+				6E70CC3024374022007B2532 /* Roboto-LightItalic.ttf */,
+				6E70CC3524374022007B2532 /* Roboto-Medium.ttf */,
+				6E70CC2F24374022007B2532 /* Roboto-MediumItalic.ttf */,
+				6E70CC2C24374021007B2532 /* Roboto-Regular.ttf */,
+				6E70CC3624374022007B2532 /* Roboto-Thin.ttf */,
+				6E70CC3724374022007B2532 /* Roboto-ThinItalic.ttf */,
+				6CD3E7AE727D4C59AAA1A1AE /* Cabin-Bold.ttf */,
+				F1366CB34F184938917F3CBC /* Cabin-Italic.ttf */,
+				18DAED562E004945BA353CA5 /* Cabin-Medium.ttf */,
+				A069385923B04062A3732AC1 /* Cabin-Regular.ttf */,
+				7E6A314D174A4D5B95346142 /* Cabin-SemiBold.ttf */,
+				0C6FD1CAC6F14192B773F515 /* Lora-Bold.ttf */,
+				FA22D273EFAA4268873F687C /* Lora-Italic.ttf */,
+				6BED32E5D066428C8E7F000F /* Lora-Regular.ttf */,
+				730163596CD345CBBC25EB96 /* Lora-SemiBold.ttf */,
+				7C6EF5ED5F2D491DB51F239F /* AntDesign.ttf */,
+				4EED292ED4A149078009B9BF /* Entypo.ttf */,
+				A3F1D8B81B524553849B18A5 /* EvilIcons.ttf */,
+				0EC395A6D5A947C9887AB75A /* FontAwesome.ttf */,
+				A38BC16D5AB74F97A39F6AD6 /* FontAwesome5_Brands.ttf */,
+				1C1D66CB260C4A78A44F42F2 /* FontAwesome5_Regular.ttf */,
+				81409CB82C384C63A4BD7EC7 /* FontAwesome5_Solid.ttf */,
+				70CE1678EF464266B1D80F57 /* Fontisto.ttf */,
+				785B6F73674942BB85B039BE /* Foundation.ttf */,
+				5EF23ACE05044D458FC5736B /* Ionicons.ttf */,
+				27DF0550D1244662913DB743 /* MaterialCommunityIcons.ttf */,
+				B74E8483ED4943458C6B3AC4 /* MaterialIcons.ttf */,
+				FD02C2534C6A43D2944F0DE5 /* Octicons.ttf */,
+				E346B11FCFF04C2891207B1A /* SimpleLineIcons.ttf */,
+				26916D95FD334FD7A6294465 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* EcooneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EcooneTests" */;
+			buildPhases = (
+				6A14C3076675E112C402A345 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = EcooneTests;
+			productName = EcooneTests;
+			productReference = 00E356EE1AD99517003FC87E /* EcooneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Ecoone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Ecoone" */;
+			buildPhases = (
+				5467ADAB8E53572593CC771F /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6E585B2F2492116800F1AA98 /* Run Script */,
+				B71D9BA2076F72A02F90397A /* [CP] Copy Pods Resources */,
+				A8BA42498D86536CF2261324 /* [CP-User] [RNFB] Core Configuration */,
+				31992EF9E39DC97BDAB83708 /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecoone;
+			productName = Ecoone;
+			productReference = 13B07F961A680F5B00A75B9A /* EcoOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Ecoone-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Ecoone-tvOS" */;
+			buildPhases = (
+				B2D4E2540FFCA1402C20DAB9 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ecoone-tvOS";
+			productName = "Ecoone-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Ecoone-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Ecoone-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Ecoone-tvOSTests" */;
+			buildPhases = (
+				920E0A5F95AF7D65251092BF /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Ecoone-tvOSTests";
+			productName = "Ecoone-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Ecoone_Development.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = K76JWZ8KU2;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = K76JWZ8KU2;
+						LastSwiftMigration = 1150;
+						ProvisioningStyle = Manual;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K76JWZ8KU2;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K76JWZ8KU2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Ecoone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Ecoone */,
+				00E356ED1AD99517003FC87E /* EcooneTests */,
+				2D02E47A1E0B4A5D006451C7 /* Ecoone-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Ecoone-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E70CC4324374023007B2532 /* Roboto-ThinItalic.ttf in Resources */,
+				6EABFCBC24ADC21A002F4FC7 /* MaterialCommunityIcons.ttf in Resources */,
+				6E70CC4224374022007B2532 /* Roboto-Thin.ttf in Resources */,
+				6E70CC4124374022007B2532 /* Roboto-Medium.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6E70CC3A24374022007B2532 /* Roboto-Italic.ttf in Resources */,
+				6E70CC4024374022007B2532 /* Roboto-Bold.ttf in Resources */,
+				6E9D56CE248903160002E6AD /* AppCenter-Config.plist in Resources */,
+				6E70CC3C24374022007B2532 /* Roboto-LightItalic.ttf in Resources */,
+				6EB6296A2474D57400A3C6FB /* EvilIcons.ttf in Resources */,
+				6ECE4AD1249E1BC10077CF60 /* InfoPlist.strings in Resources */,
+				6EB629692474D57400A3C6FB /* AntDesign.ttf in Resources */,
+				6E70CC3F24374022007B2532 /* Roboto-Light.ttf in Resources */,
+				6EB629682474D57400A3C6FB /* MaterialIcons.ttf in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6E70CC3824374022007B2532 /* Roboto-Regular.ttf in Resources */,
+				6E70CC3D24374022007B2532 /* Roboto-Black.ttf in Resources */,
+				6E70CC3B24374022007B2532 /* Roboto-MediumItalic.ttf in Resources */,
+				6E70CC3E24374022007B2532 /* Roboto-BlackItalic.ttf in Resources */,
+				6E70CC3924374022007B2532 /* Roboto-BoldItalic.ttf in Resources */,
+				6E1D5D48240DFC8E00F9C0CD /* GoogleService-Info.plist in Resources */,
+				2F7BBF88DF0441EC8C45FC56 /* Cabin-Bold.ttf in Resources */,
+				F0153224EC0C417A8D06F043 /* Cabin-Italic.ttf in Resources */,
+				8329E43C654749418C6017A7 /* Cabin-Medium.ttf in Resources */,
+				3AD14BFDFC724986A9C8C7C0 /* Cabin-Regular.ttf in Resources */,
+				4F3FA53798D5417EA3398D59 /* Cabin-SemiBold.ttf in Resources */,
+				6E0485552570DB9500889A6A /* Feather.ttf in Resources */,
+				71BB253FA3A246FC89358087 /* Lora-Bold.ttf in Resources */,
+				1DE7421CE2EE490EAAF97302 /* Lora-Italic.ttf in Resources */,
+				893EAEA1D0E64AC0A6867CD0 /* Lora-Regular.ttf in Resources */,
+				5E59927DC31E4C40A8FFDCCF /* Lora-SemiBold.ttf in Resources */,
+				8F138AD726BA4DD5A9501E83 /* Entypo.ttf in Resources */,
+				FF908DD2A4EA473A914C90A8 /* FontAwesome.ttf in Resources */,
+				643FAD1E3D5D46899BF946EC /* FontAwesome5_Brands.ttf in Resources */,
+				4AE1A49E0AE74D16A3DB52BA /* FontAwesome5_Regular.ttf in Resources */,
+				AB17C51DA2D14FE5AED14D6E /* FontAwesome5_Solid.ttf in Resources */,
+				A4FE42E93B77453A925293A9 /* Fontisto.ttf in Resources */,
+				54A69E3B0B2A4DD790CC7EDE /* Foundation.ttf in Resources */,
+				4F45A7FAE91942CA87D659E8 /* Ionicons.ttf in Resources */,
+				5AE97316436347DEBAA8114F /* Octicons.ttf in Resources */,
+				0AD77E39969D42948A0A27EA /* SimpleLineIcons.ttf in Resources */,
+				C01152E1E4E8442BB381F1E8 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		31992EF9E39DC97BDAB83708 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		5467ADAB8E53572593CC771F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecoone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A14C3076675E112C402A345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcooneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E585B2F2492116800F1AA98 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		920E0A5F95AF7D65251092BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecoone-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BA42498D86536CF2261324 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		B2D4E2540FFCA1402C20DAB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecoone-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71D9BA2076F72A02F90397A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecoone/Pods-Ecoone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* EcooneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE506DD249885A300E37C37 /* empty.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* EcooneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Ecoone */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Ecoone-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Ecoone;
+			sourceTree = "<group>";
+		};
+		6E21DA0E246D4EEC00605E24 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E21DA16246D515A00605E24 /* Base */,
+			);
+			name = Info.plist;
+			path = Ecoone;
+			sourceTree = "<group>";
+		};
+		6ECE4AD3249E1BC10077CF60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE4AD2249E1BC10077CF60 /* en */,
+				6ECE4AD4249E1BE10077CF60 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DFF12AD10C157BAD757F81 /* Pods-EcooneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EcooneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FCDD0541D5D696246A4C9B /* Pods-EcooneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				INFOPLIST_FILE = EcooneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc9e3484-e11b-494d-9b8f-239555b2a289";
+				PROVISIONING_PROFILE_SPECIFIER = "ecoone.com AppStore";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA6F955890431E8282C83A1 /* Pods-Ecoone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODEPUSH_KEY = "rwgc7t-fI0Hdj9HeGBR3_NTmXk4Pid7fR8c8_";
+				CODE_SIGN_ENTITLEMENTS = Ecoone/Ecoone.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 27;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K76JWZ8KU2;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = Ecoone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.com;
+				PRODUCT_NAME = EcoOne;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Ecoone_AppStore;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecoone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5375FD02FA6A6061536FB2 /* Pods-Ecoone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODEPUSH_KEY = HK5q3dYxl4g6XwfCqPpJqDnKoslaPVdDpGbtx;
+				CODE_SIGN_ENTITLEMENTS = Ecoone/Ecoone.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K76JWZ8KU2;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = Ecoone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.com;
+				PRODUCT_NAME = EcoOne;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Ecoone_AppStore;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecoone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED582C2B73CE171B7FCDEDA4 /* Pods-Ecoone-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Ecoone-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614AB2503DD65765AE135FD3 /* Pods-Ecoone-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Ecoone-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc9e3484-e11b-494d-9b8f-239555b2a289";
+				PROVISIONING_PROFILE_SPECIFIER = "ecoone.com AppStore";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7258225B8333BDF13E2D59DD /* Pods-Ecoone-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.development;
+				PRODUCT_NAME = Ecoone_Development;
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoone-tvOS.app/Ecoone-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B1DECDE0861F213DF2077A /* Pods-Ecoone-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.com;
+				PRODUCT_NAME = Ecoone;
+				PROVISIONING_PROFILE = "fc9e3484-e11b-494d-9b8f-239555b2a289";
+				PROVISIONING_PROFILE_SPECIFIER = "ecoone.com AppStore";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoone-tvOS.app/Ecoone-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		6E2D784025AEAE4300EFC2E2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ecoone_Demo;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		6E2D784125AEAE4300EFC2E2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A16957373F237DCFC8EF274 /* Pods-Ecoone.beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODEPUSH_KEY = "AuXYYf2llGb24wlo3g6a-5Oj3NiWB6FSzwmed";
+				CODE_SIGN_ENTITLEMENTS = Ecoone/Ecoone.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = Ecoone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.beta;
+				PRODUCT_NAME = EcoOne_Beta;
+				PROVISIONING_PROFILE_SPECIFIER = Ecoone_Beta_Adhoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecoone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Beta;
+		};
+		6E2D784225AEAE4300EFC2E2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F07D0903A726B2AC52F420 /* Pods-EcooneTests.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				INFOPLIST_FILE = EcooneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Beta;
+		};
+		6E2D784325AEAE4300EFC2E2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62619739EA0A8F5BF6252D7D /* Pods-Ecoone-tvOS.beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Ecoone-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Beta;
+		};
+		6E2D784425AEAE4300EFC2E2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFDE733A38BC87931687803 /* Pods-Ecoone-tvOSTests.beta.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.demo;
+				PRODUCT_NAME = Ecoone_Demo;
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoone-tvOS.app/Ecoone-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Beta;
+		};
+		6E637BA0259C60C3009AC592 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ecoone_Demo;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Demo;
+		};
+		6E637BA1259C60C3009AC592 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58FC3E51EBC15339800D8D2 /* Pods-Ecoone.demo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODEPUSH_KEY = "oOv-eziwdkrXeXIEn_v2zi7ZAalh0dM823Yxz";
+				CODE_SIGN_ENTITLEMENTS = Ecoone/Ecoone.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = Ecoone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.demo;
+				PRODUCT_NAME = EcoOne_Demo;
+				PROVISIONING_PROFILE_SPECIFIER = Ecoone_Demo_Adhoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecoone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Demo;
+		};
+		6E637BA2259C60C3009AC592 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396EAD7712E079D0CCAFCBC9 /* Pods-EcooneTests.demo.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				INFOPLIST_FILE = EcooneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Demo;
+		};
+		6E637BA3259C60C3009AC592 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173F3750700FBEB8BA3037C4 /* Pods-Ecoone-tvOS.demo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Ecoone-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Demo;
+		};
+		6E637BA4259C60C3009AC592 /* Demo */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D90F637D0D39822ACB001DC /* Pods-Ecoone-tvOSTests.demo.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.demo;
+				PRODUCT_NAME = Ecoone_Demo;
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoone-tvOS.app/Ecoone-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Demo;
+		};
+		6EA7E3AD248A1A280087D9F4 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ecoone_Staging;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		6EA7E3AE248A1A280087D9F4 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7192D84E781FCF0F29A0DF68 /* Pods-Ecoone.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODEPUSH_KEY = "rwgc7t-fI0Hdj9HeGBR3_NTmXk4Pid7fR8c8_";
+				CODE_SIGN_ENTITLEMENTS = Ecoone/Ecoone.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = Ecoone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.test;
+				PRODUCT_NAME = EcoOne_Staging;
+				PROVISIONING_PROFILE_SPECIFIER = Ecoone_Staging_Adhoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ecoone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		6EA7E3AF248A1A280087D9F4 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8882F01F6ED4CD245D8958B9 /* Pods-EcooneTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				INFOPLIST_FILE = EcooneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Staging;
+		};
+		6EA7E3B0248A1A280087D9F4 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4236BD4D74E0D9FC52174E1D /* Pods-Ecoone-tvOS.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Ecoone-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Staging;
+		};
+		6EA7E3B1248A1A280087D9F4 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6881A4F782A15E740D52B40A /* Pods-Ecoone-tvOSTests.staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K76JWZ8KU2;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Ecoone-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ecoone.test;
+				PRODUCT_NAME = Ecoone_Staging;
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoone-tvOS.app/Ecoone-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Staging;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Ecoone_Development;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ecoone;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EcooneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+				6EA7E3AF248A1A280087D9F4 /* Staging */,
+				6E637BA2259C60C3009AC592 /* Demo */,
+				6E2D784225AEAE4300EFC2E2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Ecoone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				6EA7E3AE248A1A280087D9F4 /* Staging */,
+				6E637BA1259C60C3009AC592 /* Demo */,
+				6E2D784125AEAE4300EFC2E2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Ecoone-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+				6EA7E3B0248A1A280087D9F4 /* Staging */,
+				6E637BA3259C60C3009AC592 /* Demo */,
+				6E2D784325AEAE4300EFC2E2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Ecoone-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+				6EA7E3B1248A1A280087D9F4 /* Staging */,
+				6E637BA4259C60C3009AC592 /* Demo */,
+				6E2D784425AEAE4300EFC2E2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Ecoone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				6EA7E3AD248A1A280087D9F4 /* Staging */,
+				6E637BA0259C60C3009AC592 /* Demo */,
+				6E2D784025AEAE4300EFC2E2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

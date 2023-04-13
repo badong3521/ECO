@@ -1,0 +1,4 @@
+Ecoone đã có những cập nhật được yêu cầu rất nhiều từ cộng đồng người sử dụng:
+* Đánh dấu yêu thích với những nội dung và khuyến mại để sử dụng sau
+* Thiết lập vị trí nhà và nơi làm việc để truy cập nhanh trong Ecobus
+* Thêm thông tin liên hệ của nhiều cơ quan trong Ecopark

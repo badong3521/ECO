@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+      <domain includeSubdomains="true">ecoone-api-dev.sandbox-at-ecotek.com</domain>
+      <domain includeSubdomains="true">sandbox.ecoid.ecotekcorp.com</domain>
+      <domain includeSubdomains="true">ecoone-api.ecotekcorp.com</domain>
+      <domain includeSubdomains="true">ecoid.ecotekcorp.com</domain>
+
+      <pin-set>
+        <!-- R3 - expires 2025-09-15 -->
+        <pin digest="SHA-256">jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=</pin>
+        <!-- ISRG Root X1 - expires 2024-09-30 -->
+        <pin digest="SHA-256">C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=</pin>
+      </pin-set>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+      <!-- Your Metro Bundler local IP -->
+      <domain includeSubdomains="true">10.0.2.2</domain>
+      <domain includeSubdomains="true">localhost</domain>
+    </domain-config>
+</network-security-config>

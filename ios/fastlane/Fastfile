@@ -1,0 +1,200 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+IOS_APP_CODE_PUSH = 'Ecotek-Corp/Ecoone-iOS'
+PROJECT_NAME = 'Ecoone'
+IOS_PRODUCTION_SCHEME = 'ProductionEcoone'
+IOS_STAGING_SCHEME = 'StagingEcoone'
+IOS_DEMO_SCHEME = 'DemoEcoone'
+IOS_BETA_SCHEME = 'BetaEcoone'
+IOS_TESTERS_INTERNAL = 'ecoone-internal-ios'
+IOS_TESTERS_COMPANY = 'ecoone-company-ios'
+IOS_APP_ID_STAGING = "1:1073217317494:ios:cb53723d22c002b7a44d57"
+IOS_APP_ID_PRODUCTION = "1:1073217317494:ios:2e0e5b5ff15626cba44d57"
+IOS_APP_ID_DEMO = "1:1073217317494:ios:dac340589eb163a5a44d57"
+IOS_APP_ID_BETA = "1:1073217317494:ios:b557e413cc494d4ca44d57"
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "hzkj-imre-dlmd-agmi"
+  end
+  desc "Push new code to Staging/Demo/Beta by Code Push with current version in Xcode"
+  desc "options:"
+  desc "`mandatory:true | false`"
+  desc "`demo:true | false`"
+  desc "`beta:true | false`"
+  lane :ios_code_push do |options|
+    version = get_version_number(xcodeproj: "Ecoone.xcodeproj", target: PROJECT_NAME)
+    mandatory_string = options[:mandatory] == true ? ' -m' : ''
+    flavor = 'Staging'
+    if options[:demo]
+      flavor = 'Demo'
+    end
+    if options[:beta]
+      flavor = 'Beta'
+    end
+    UI.message("Start code push progress")
+    Dir.chdir("../../") do
+      sh "appcenter codepush release-react -a #{IOS_APP_CODE_PUSH} -t #{version} #{mandatory_string} -d #{flavor}" do |status, command|
+        if status.success?
+          UI.success("🚀 All done! Check out the rollout & install stats in the Codepush section of the dashboard on App Center.")
+        else
+          UI.user_error!("Command #{command} failed with status #{status.exitstatus}")
+        end
+      end
+    end
+  end
+
+  desc "Push new code to Production by Code Push"
+  desc "options:"
+  desc "`mandatory:true | false`"
+  lane :ios_code_push_production do |options|
+    UI.message("Start promote IOS App from Staging to Production")
+    unless git_branch == 'master'
+      UI.user_error!("Must build production on master branch!!!")
+    end
+
+    version = get_version_number(xcodeproj: "Ecoone.xcodeproj", target: PROJECT_NAME)
+    mandatory_string = options[:mandatory] == true ? ' -m' : ''
+
+    Dir.chdir("../../") do
+      sh "appcenter codepush release-react -a #{IOS_APP_CODE_PUSH} -t #{version} #{mandatory_string} -d Production " do |status, command|
+        if status.success?
+          UI.success("🚀 All done! Promote latest version on Staging to Promotion successfully!")
+        else
+          UI.user_error!("Command #{command} failed with status #{status.exitstatus}")
+        end
+      end
+    end
+  end
+
+  desc "Build new IOS app"
+  desc "options:"
+  desc "`production:true`: build file with production environment"
+  desc "`production:false`: build file with staging environment"
+  desc "`demo:true|false`: build file with demo environment"
+  desc "`beta:true|false`: build file with beta environment"
+  lane :ios_build do |options|
+    if options[:production]
+      scheme = IOS_PRODUCTION_SCHEME
+      configuration = "Release"
+      outputName = "Ecoone"
+      provisioningProfiles = {
+          "ecoone.com": "Ecoone_AppStore",
+      }
+    elsif options[:demo]
+      scheme = IOS_DEMO_SCHEME
+      configuration = "Demo"
+      outputName = "Ecoone_Demo"
+      provisioningProfiles = {
+          "ecoone.demo": "Ecoone_Demo_Adhoc",
+      }
+    elsif options[:beta]
+      scheme = IOS_BETA_SCHEME
+      configuration = "Beta"
+      outputName = "Ecoone_Beta"
+      provisioningProfiles = {
+          "ecoone.beta": "Ecoone_Beta_Adhoc",
+      }
+    else
+      scheme = IOS_STAGING_SCHEME
+      configuration = "Staging"
+      outputName = "Ecoone_Staging"
+      provisioningProfiles = {
+          "ecoone.test": "Ecoone_Staging_Adhoc",
+      }
+    end
+    gym(
+        workspace: "Ecoone.xcworkspace",
+        scheme: scheme,
+        output_directory: './builds/ipa/',
+        configuration: configuration,
+        output_name: outputName,
+        export_options: {
+            method: options[:production] ? "app-store" : "ad-hoc",
+            signingStyle: "manual",
+            provisioningProfiles: provisioningProfiles
+        },
+        export_method: options[:production] ? "app-store" : "ad-hoc"
+    )
+  end
+
+  desc "Build IOS app, upload it to Firebase Distribution and invite testers automatically"
+  desc "options:"
+  desc "`production:true`: build Production app, otherwise build Staging app"
+  desc "`company:true`: invite for all members in company group, otherwise only invite Ecoone internal members"
+  desc "`demo:true`: build Demo app"
+  desc "`beta:true`: build Beta app"
+  lane :ios_firebase_distribution do |options|
+    if options[:production]
+      outputName = "Ecoone"
+      appId = IOS_APP_ID_PRODUCTION
+    elsif options[:demo]
+      outputName = "Ecoone_Demo"
+      appId = IOS_APP_ID_DEMO
+    elsif options[:beta]
+      outputName = "Ecoone_Beta"
+      appId = IOS_APP_ID_BETA
+    else
+      outputName = "Ecoone_Staging"
+      appId = IOS_APP_ID_STAGING
+    end
+    ios_build(
+        production: options[:production],
+        demo: options[:demo],
+        beta: options[:beta],
+    )
+    firebase_app_distribution(
+      app: appId,
+      release_notes: File.read("../../.firebase_release_notes").strip,
+      groups: 'ecoone-ios',
+      ipa_path: "./builds/ipa/#{outputName}.ipa",
+      firebase_cli_token: File.read("../../.firebase_cli_token").strip
+    )
+  end
+
+  desc "Release TestFlight for internal testing"
+  lane :ios_upload_to_testflight_internal_testing do
+    ios_build(
+      production: true
+    )
+    #upload ipa file to TestFlight
+    pilot(
+      ipa: "./builds/ipa/#{PROJECT_NAME}.ipa",
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  # desc "Build Production iOS app, and upload all metadata and new build version to App Store. Please confirm all information in `ios/fastlane/metadata` before call this lane"
+  # lane :ios_upload_to_apple_store do
+  #   unless git_branch == 'master'
+  #     UI.user_error!("Must build production on master branch!!!")
+  #   end
+
+  #   ios_build(
+  #       production: true
+  #   )
+  #   #upload ipa file to TestFlight
+  #   pilot(
+  #       ipa: "./builds/ipa/#{PROJECT_NAME}.ipa"
+  #   )
+  #   deliver(
+  #       submit_for_review: true,
+  #       automatic_release: false,
+  #       force: true, # Skip HTMl report verification
+  #   )
+  # end
+end

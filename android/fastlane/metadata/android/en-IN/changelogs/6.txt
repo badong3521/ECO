@@ -1,0 +1,4 @@
+Today we some heavily requested features by the community:
+* Favorite the best content or promotion to save it for a later date.
+* Favorite your home and work locations for Ecobus!
+* Contact information about the various departments within Ecopark.

@@ -1,0 +1,25 @@
+# Ignore files for Prettier when linting
+android/
+ios/
+__tests__/
+src/assets/
+
+*.json
+*.log
+*.lock
+README.md
+
+# Dotfiles
+.idea
+.buckconfig
+.env*
+.eslintignore
+.eslintrc.js
+.flowconfig
+.gitattributes
+.gitignore
+.prettierignore
+.prettierrc.js
+.watchmanconfig
+.idea
+.DS_Store

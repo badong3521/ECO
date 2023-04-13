@@ -1,0 +1,14 @@
+/*
+  InfoPlist.strings
+  Ecoone
+
+  ≥˙ by Nha Nha on 6/20/20.
+  Copyright © 2020 Facebook. All rights reserved.
+*/
+NSCameraUsageDescription = "EcoOne would like to use your camera to take your avatar photo.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is required to give you feedback about when your bus will arive near you, when you&apos;re almost at your destination, and to provide you with feedback about how far in your journey you are";
+NSLocationAlwaysUsageDescription = "Your location is required to give you feedback about when your bus will arive near you, when you&apos;re almost at your destination, and to provide you with feedback about how far in your journey you are";
+NSLocationWhenInUseUsageDescription = "Your location is required to give you feedback about when your bus will arive near you, when you&apos;re almost at your destination, and to provide you with feedback about how far in your journey you are";
+NSMicrophoneUsageDescription = "EcoOne would like to use your microphone (for videos)";
+NSPhotoLibraryAddUsageDescription = "EcoOne would like to save photos to your photo gallery";
+NSPhotoLibraryUsageDescription = "EcoOne would like to use your library to upload your avatar photo";

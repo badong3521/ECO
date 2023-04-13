@@ -1,0 +1,165 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+ANDROID_APP_CODE_PUSH = 'Ecotek-Corp/Ecoone-Android'
+ANDROID_APP_ID_BETA = "1:1073217317494:android:de982c22f4df376ca44d57"
+ANDROID_APP_ID_DEMO = "1:1073217317494:android:9c10968d586b2c29a44d57"
+ANDROID_APP_ID_STAGING = "1:1073217317494:android:f12830918ba3fd85a44d57"
+ANDROID_APP_ID_PRODUCTION = "1:1073217317494:android:11b355ecf7944d07a44d57"
+ANDROID_TESTERS_INTERNAL = 'ecoone-internal-android'
+ANDROID_TESTERS_COMPANY = 'ecoone-company-android'
+
+default_platform(:android)
+
+platform :android do
+  desc "Push new code to Staging | Demo | Beta by Code Push"
+  desc "options:"
+  desc "`mandatory:true | false`"
+  desc "`demo:true | false`"
+  desc "`beta:true | false`"
+  lane :android_code_push do |options|
+    version = get_version_name
+    flavor = 'Staging'
+    if options[:demo]
+      flavor = 'Demo'
+    end
+    if options[:beta]
+      flavor = 'Beta'
+    end
+    mandatory_string = options[:mandatory] == true ? ' -m' : ''
+    UI.message("Start code push progress")
+    Dir.chdir("../../") do
+      sh "appcenter codepush release-react -a #{ANDROID_APP_CODE_PUSH} -t #{version} #{mandatory_string} -d #{flavor}" do |status, command|
+        if status.success?
+          UI.success("🚀 All done! Check out the rollout & install stats in the Codepush section of the dashboard on App Center.")
+        else
+          UI.user_error!("Command #{command} failed with status #{status.exitstatus}")
+        end
+      end
+    end
+  end
+
+  desc "Push new code to Production by Code Push"
+  desc "options:"
+  desc "`mandatory:true | false`"
+  lane :android_code_push_production do |options|
+    UI.message("Start code push to Production")
+    unless git_branch == 'master'
+      UI.user_error!("Must build production on master branch!!!")
+    end
+
+    version = get_version_name
+    mandatory_string = options[:mandatory] == true ? ' -m' : ''
+
+    Dir.chdir("../../") do
+      sh "appcenter codepush release-react -a #{ANDROID_APP_CODE_PUSH} -t #{version} #{mandatory_string} -d Production " do |status, command|
+        if status.success?
+          UI.success("🚀 All done! Promote latest version on Staging to Promotion successfully!")
+        else
+          UI.user_error!("Command #{command} failed with status #{status.exitstatus}")
+        end
+      end
+    end
+  end
+
+  desc "Build new Android app"
+  desc "options:"
+  desc "`production:true`: build file with production environment"
+  desc "`production:false`: build file with staging environment"
+  desc "`demo:true`: build file with Demo environment"
+  desc "`beta:true`: build file with Beta environment"
+  desc "`bundle:true`: output is bundle file (app.aab)"
+  desc "`bundle:false`: output is apk file (app.apk)"
+  lane :android_build do |options|
+    buildType = 'StagingRelease'
+    env = '.env.staging'
+    if options[:production]
+      buildType = 'Release'
+      env = '.env.production'
+    elsif options[:demo]
+      buildType = 'DemoRelease'
+      env = '.env.demo'
+    elsif options[:beta]
+      buildType = 'BetaRelease'
+      env = '.env.beta'
+    end
+    gradle(
+        task: options[:bundle] ? 'bundle' : 'assemble',
+        build_type: buildType,
+        system_properties: {
+            ENVFILE: env
+        }
+    )
+  end
+
+  desc "Build Android app, upload it to Firebase Distribution and invite testers automatically"
+  desc "options:"
+  desc "`production:true`: build Production app, otherwise build Staging app"
+  desc "`company:true`: invite for all members in company group, otherwise only invite EcoOne internal members"
+  desc "`demo:true`: build Demo app"
+  desc "`beta:true`: build Beta app"
+  lane :android_firebase_distribution do |options|
+    android_build(
+        production: options[:production],
+        demo: options[:demo],
+        beta: options[:beta]
+    )
+    buildType = 'stagingRelease'
+    appId = ANDROID_APP_ID_STAGING
+    if options[:production]
+      buildType = 'release'
+      appId = ANDROID_APP_ID_PRODUCTION
+    elsif options[:demo]
+      buildType = 'demoRelease'
+      appId = ANDROID_APP_ID_DEMO
+    elsif options[:beta]
+      buildType = 'betaRelease'
+      appId = ANDROID_APP_ID_BETA
+    end
+
+    firebase_app_distribution(
+        app: appId,
+        release_notes: File.read("../../.firebase_release_notes").strip,
+        groups: 'ecoone-android',
+        firebase_cli_token: File.read("../../.firebase_cli_token").strip,
+        apk_path: "./app/build/outputs/apk/#{buildType}/app-#{buildType}.apk"
+    )
+  end
+
+  desc "Release Play store internal testing"
+  lane :android_upload_to_play_store_internal_testing do
+    android_build(
+      production: true,
+      bundle: true
+    )
+
+    upload_to_play_store_internal_app_sharing(aab: "./app/build/outputs/bundle/release/app.aab")
+  end
+
+  desc "Build Production Android app, and upload all metadata and new build version to Google Store and rollout automatically. Please confirm all information in `android/fastlane/metadata` before call this lane"
+  lane :android_upload_to_google_store do
+    unless git_branch == 'master'
+      UI.user_error!("Must build production on master branch!!!")
+    end
+
+    android_build(
+        production: true,
+        bundle: true
+    )
+    upload_to_play_store(
+        aab: "./app/build/outputs/bundle/release/app.aab",
+        skip_upload_apk: true
+    )
+  end
+end

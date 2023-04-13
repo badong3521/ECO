@@ -1,0 +1,3 @@
+Thêm các tính năng mới:
+- Trang chủ: Cập nhật giao diện và trải nghiệm mới trên để giúp người dùng dễ tìm kiếm mọi thông tin nổi bật, quan trọng tại Ecopark.
+- Thanh toán điện tử EcoID: Cho phép cư dân Ecopark thanh toán các loại hoá đơn an toàn và tiện lợi thông qua ứng dụng EcoOne.

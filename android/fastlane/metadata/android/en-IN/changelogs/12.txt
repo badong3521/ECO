@@ -1,0 +1,3 @@
+New Changes:
+- Home Screen: New interface to make it easier for users to find important and featured information at Ecopark.
+- Electronic Payment: Allow Ecopark residents to conveniently and securely pay bills through EcoOne.

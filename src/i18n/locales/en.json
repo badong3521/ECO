@@ -1,0 +1,1132 @@
+{
+  "components": {
+    "userStatusBar": {
+      "welcomeMessage": "Hey {{fullName}}",
+      "welcomeMessageNoName": "Hey!",
+      "dailyMessage": "Isn't it a beautiful day today?",
+      "goodMorning": "Good morning",
+      "goodAfternoon": "Good afternoon",
+      "goodEvening": "Good evening"
+    },
+    "userInformationCard": {
+      "welcomeMessage": "Welcome back,"
+    },
+    "card": {
+      "featured": "Featured"
+    },
+    "attachmentModal": {
+      "uploadFile": "Upload File",
+      "uploadImage": "Upload Image",
+      "chooseFromLibrary": "Choose Image from Library"
+    },
+    "gallery": {
+      "saveToLocal": "Save image"
+    },
+    "noResidentFound": {
+      "header": "Your resident account has not activated",
+      "title": "Sorry, we cannot find your resident information",
+      "description": "Please bring your ID and papers to receptionist to update your information, then you can continue to register for vaccinnation!"
+    },
+    "selectResident": {
+      "titleAccommodation": "Please select your accommodation:",
+      "title": "Please select a member:",
+      "unselectableTitle": "Your registration form is being processed. Please wait, we will respond later.",
+      "selectNote": "Register only for who has the name in the below list. If you don’t find the member’s name here, please go to the reception to register them as Ecopark residents.",
+      "selectMultipleResidentNote": "Your phone number is currently attached with more than one resident profile. To comply with the vaccination requirement and ensure that you can receive vaccination information through SMS, please update your household members' frequently used phone numbers with the receptionist and register again on EcoOne.",
+      "registered": "Registered",
+      "unverified": "Unverified",
+      "doSurvey": "Please do survey",
+      "surveySubmitted": "Survey submitted: {{total}}"
+    },
+    "noticeJailbreak": {
+      "title": "Malware detected warning!",
+      "message": "EcoOne detected that your devices was Rooted/JailBroken.",
+      "exitApp": "Exit",
+      "continue": "Continue"
+    }
+  },
+  "bottomNavigation": {
+    "labels": {
+      "homeScreen": "Home",
+      "directory": "Directory",
+      "bus": "Ecobus",
+      "profile": "Profile"
+    }
+  },
+  "features": {
+    "rateAppScreen": {
+      "title": [
+        "Unsatisfied",
+        "Fine",
+        "Satisfied"
+      ],
+      "subtitle": [
+        "Ouch, are you having any trouble?",
+        "Can you share a bit more with us?",
+        "Tell EcoOne your experience now!"
+      ]
+    },
+    "directory": {
+      "promotions": {
+        "expired": "Expires at",
+        "promotions": "Promotions",
+        "expiredAt": "Expires at",
+        "types": {
+          "buy_get": "Buy {{buy}} get {{get}} free",
+          "percent_off": "{{percent}}% off",
+          "percent_off_upto": "Up to {{percent}}% off",
+          "only_from": "Only {{price}}K",
+          "same_price": "One price {{price}}K",
+          "1million": "1 MILLION",
+          "voucher": "Voucher",
+          "gift": "Special gift"
+        }
+      },
+      "event": {
+        "events": "Events",
+        "onGoingEvent": "Ongoing events",
+        "specialEvents": "Special events",
+        "noSpecialEvents": "No special events"
+      },
+      "news": {
+        "all": "All",
+        "ecopark": "Ecopark's news",
+        "community": "Community's news",
+        "news": "News",
+        "empty": "Ooops! No news available"
+      },
+      "noData": "Ooops, no content yet.",
+      "allMerchants": {
+        "subtitle": "Keep discovering",
+        "title": "Merchants in Ecopark"
+      },
+      "searchBarPlaceholder": "What are you looking for?",
+      "searchScreen": {
+        "searchBarPlaceholder": "Search by merchant's name",
+        "noResult": "Oops we couldn't find anything. Try a different name?"
+      },
+      "filters": {
+        "noResult": "Oops... No content yet.",
+        "merchant": {
+          "all": "All",
+          "new": "New",
+          "promotion": "Promotion"
+        }
+      }
+    },
+    "home": {
+      "happeningInEcopark": "Happening in Ecopark",
+      "yourDailyRead": "Your Daily Read",
+      "viewAll": "View all",
+      "official": "OFFICIAL",
+      "joinNow": "View detail",
+      "weather": {
+        "ecopark": "Ecopark",
+        "humidity": "Hum {{humidity}}%",
+        "windSpeed": "Wind {{windSpeed}}km/h"
+      },
+      "newBill": {
+        "message": "You have {{total}} unpaid bill of water and service fee.",
+        "messageMultipleBill": "You have {{total}} unpaid bills of water and service fee.",
+        "payNow": "Pay now"
+      },
+      "newElectricBill": {
+        "message": "You have {{total}} unpaid electricity bill.",
+        "messageMultipleBill": "You have {{total}} unpaid electricity bills."
+      },
+      "ecoidOnboarding": {
+        "message": "\"Touch\" payment under one minute - Handle bills without a worry",
+        "tryNow": "Try now"
+      },
+      "lixi": {
+        "title": "Li Xi is full, open now!",
+        "closingTitle": "Li Xi is coming, wait a sec!",
+        "totalPrize": "Total gift's value are worth",
+        "openFrom": "The next round starts in:",
+        "timeRemainingToOpen": "Round closes in:",
+        "lixiTotal": "You have collected {{total}} Li Xi!",
+        "viewNow": "View now",
+        "timeAttributes": {
+          "hours": "Hrs",
+          "minutes": "Min",
+          "seconds": "Sec"
+        }
+      }
+    },
+    "lixiOnboarding": {
+      "description": "Touch or shake the box - Unlock Li Xi!\nTotal presents are worth more than\n100.000.000 VNĐ",
+      "gotLucky": "Happy New Year!\nYou have received a wish from EcoOne",
+      "gotLixi": "Congratulations!\nYou have received a Li Xi from EcoOne",
+      "gotGift": "Congratulations!\nYou have received a Special Gift from EcoOne",
+      "gotVoucher": "Congratulations!\nYou have received a voucher from {{merchant}}",
+      "luckyMessage": {
+        "title": "Happy Lunar New Year 2021!",
+        "1": "Tết đến xuân về, EcoOne chúc bạn và cả gia đình một năm mới an khang, thịnh vượng, luôn tràn đầy niềm vui, sức khoẻ và may mắn nhé!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!",
+        "2": "Tết đến xuân về, EcoOne chẳng thích chúc gì cao xa, chỉ mong bạn luôn có những bữa ăn vui vẻ, bình an và mạnh khỏe bên gia đình và bạn bè bạn nhé!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!",
+        "3": "Cám ơn bạn vì đã đồng hành cùng EcoOne trong năm vừa qua nhé.<br>Chúc bạn Tết này vẫn giống Tết xưa, vẫn vui vẻ vẫn bình an có thừa!<br>Hôm nay lắc nhầm hộp rỗng mất rồi, EcoOne mời bạn quay lại app vào khung giờ 9h-13h hoặc 18h-22h hàng ngày để mình khui thêm lì xì nha!"
+      }
+    },
+    "helpDesk": {
+      "emptyState": {
+        "title": "You haven't submitted any request",
+        "desc": "We are always ready to response to your request"
+      },
+      "ticketList": {
+        "title": "Latest tickets",
+        "noTickets": "No request has been made",
+        "createRequest": "Send Request",
+        "tabs": {
+          "all": "All Requests",
+          "response": "New Response",
+          "open": "Pending",
+          "closed": "Resolved"
+        },
+        "emptyTitle": {
+          "all": "You haven't submitted any request",
+          "response": "You have no request with new response.",
+          "open": "You have no pending request.",
+          "closed": "You have no resolved request."
+        },
+        "emptyDesc": {
+          "all": "We are always ready to response to your request",
+          "response": "We are finding the most suitable solution to your request, so please wait a moment!",
+          "open": "EcoOne would always be ready to listen and solve any request you have.",
+          "closed": "Please make a new request if you need further support!"
+        }
+      },
+      "ticketScreen": {
+        "resolveLabel": "Resolve request",
+        "inputLabel": "Reply",
+        "reopenLabel": "Re-open ticket",
+        "subject": "Subject: {{subject}}",
+        "messageConfirmCloseTopic": "Are you sure to resolve this request?\nAfter you resolve, you can still reopen.",
+        "continue": "Continue",
+        "rateTicket": "Rate",
+        "reply": "Reply"
+      },
+      "banner": {
+        "title": "Need help?",
+        "subtitle": "Create a ticket and we’ll help you find a solution",
+        "getSupport": "Get support"
+      },
+      "create": {
+        "feedbackAbout": "Request about",
+        "selectTopicTitle": "Which topic does your request belong to?",
+        "selectRoleTitle": "Who are you?",
+        "selectRoleSubTitle": "Choose the role that best describes you.",
+        "topicTitle": "Choose a topic",
+        "uploadAttachment": "Upload",
+        "validation": {
+          "required": "This is required",
+          "maxLengthSubject": "Maximum 60 characters"
+        },
+        "subjectLabel": "Subject (Maximum 60 characters)",
+        "descriptionLabel": "Description",
+        "photoLabel": "Photo",
+        "fileLabel": "File Attachment (PDF/Doc/Docx)",
+        "success": {
+          "title": "Request Submitted!",
+          "desc": "Your request has been successfully submitted to the {{name}}. We surely would reach back to you soon.",
+          "goBack": "Go back",
+          "viewDetail": "View conversation"
+        }
+      },
+      "badges": {
+        "response": "New Response",
+        "open": "Pending",
+        "closed": "Resolved"
+      },
+      "ticketRating": {
+        "title": "Your request has been resolved",
+        "desc": "How do you feel with our response?",
+        "notNow": "Not now",
+        "reactions": {
+          "bad": "Not happy",
+          "ok": "Okay",
+          "good": "Satisfied"
+        }
+      }
+    },
+    "onboarding": {
+      "title": "Hello",
+      "text": "We’re excited to introduce you a new version of EcoOne. Are you ready to visit our new homepage and explore new functionalities in this latest version?\n\nLet’s get started!",
+      "buttonLabel": "Slide to explore"
+    },
+    "signUp": {
+      "signIn": "Sign in",
+      "hiThere": "Hi there!",
+      "alreadyHaveAccount": "Already have an account?",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "phoneNumber": "Phone number",
+      "password": "Password",
+      "termsAndConditionsAgreement": "I agree to all [Terms and Conditions] of EcoOne App",
+      "orSignInWidth": "Or sign in with",
+      "contactUs": "Trouble getting in? Call us: [{{phone}}]",
+      "onboarding": {
+        "1": "[One tap] to Ecopark’s services",
+        "2": "Get all your answers in [Help Desk]",
+        "3": "Keep up with all the [News]"
+      }
+    },
+    "addPhoneNumber": {
+      "description": "You have signed up with {{provider}}, please provide a phone number below",
+      "signUp": "Sign up",
+      "provider": {
+        "google_oauth2": "Google",
+        "facebook": "Facebook",
+        "apple": "Apple"
+      }
+    },
+    "verification": {
+      "description": "A SMS with OTP code has been sent to your phone number. Please input below",
+      "resendOtp": "{{time}} Resend OTP"
+    },
+    "signIn": {
+      "description": "Please sign in below\nNot yet a member? ",
+      "signUp": "Sign up",
+      "signIn": "Sign in",
+      "forgotPassword": "Forgot password"
+    },
+    "forgotPassword": {
+      "description": "Please provide your phone number to \nreset your password"
+    },
+    "resetPassword": {
+      "description": "Enter your new password below",
+      "newPassword": "New password",
+      "retypeNewPassword": "Retype new password"
+    },
+    "userScreen": {
+      "rateAppTitle": "App Rating",
+      "rateAppSubtitle": "All in all: Is EcoOne supporting you at the right time, place and point?",
+      "yourRating": "Your rating",
+      "rateAppAction": "Rate",
+      "syncEcoId": "Ecopark Resident",
+      "syncEcoIdDesc": "Manage and complete Smart - Speedy - Secure payments of all bills.",
+      "syncNow": "Access now",
+      "surveyButton": "Start the survey",
+      "popupLogoutTitle": "Do you want to log out the EcoOne?",
+      "logout": "Logout",
+      "busCardNoRegistered": "Bus card not registered",
+      "clickToAdd": "Click to register",
+      "getHelp": "Get help",
+      "clickMe": "Click me",
+      "contactUs": "Contact us",
+      "ecofeedback": "FEEDBACK & SUPPORT",
+      "ecofeedbackDesc": "Constantly seek to listen and provide residence support.",
+      "sendFeedback": "Send Feedback",
+      "helpDeskDescription": "Click here to get help for all of your questions and concerns.",
+      "ecoId": "EcoID",
+      "noEcoIdDescription": "Click here to start managing your residences and paying your bills.",
+      "syncedEcoIdDescription": "View my residences to manage and pay bills.",
+      "profile": "Profile",
+      "actions": {
+        "electricBill": "Electricity bill payment",
+        "helpDesk": "Hotlines",
+        "bookmarks": "Bookmarked",
+        "settings": "Settings",
+        "manageCalendar": "Schedule handover appointment"
+      },
+      "residences": {
+        "totalUnpaidBill": "You have {{total}} unpaid bill",
+        "totalUnpaidBills": "You have {{total}} unpaid bills",
+        "noUnpaidBill": "You have no unpaid bill now",
+        "manageHousehold": "Manage Your Household"
+      }
+    },
+    "contactScreen": {
+      "phone": "Call",
+      "email": "Email",
+      "openHours": "Opening Hours:",
+      "daysShort": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thur",
+        "Fri",
+        "Sat",
+        "Sun"
+      ]
+    },
+    "updateProfileScreen": {
+      "personalInformation": "It's you",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "birthday": "Birthday",
+      "interests": "Interests",
+      "ecoparkArea": "Ecopark area",
+      "avatar": "Avatar",
+      "viewAvatar": "View Avatar",
+      "takePhoto": "Take Photo",
+      "chooseFromLibrary": "Choose from Library",
+      "description": "Change your personal information below",
+      "updateProfileSuccess": "Profile updated successfully!",
+      "confirmWantToBack": "You have not saved your updated information. Do you want to discard changes?",
+      "noneArea": "None",
+      "gender": {
+        "title": "Gender",
+        "male": "Male",
+        "female": "Female"
+      }
+    },
+    "cardScreen": {
+      "about": "About",
+      "contact": "Contact",
+      "cards": "Cards",
+      "phone": "Call",
+      "email": "Email",
+      "directions": "Directions",
+      "confirmRedeemTitle": "Do you want to use this coupon now?",
+      "coupon": "Coupon",
+      "expiredAt": "Expires at",
+      "useRedeemDescription": "Please bring this coupon to store for redemption.\nValid 1 time per user",
+      "redeemed": "REDEEMED",
+      "redeemedAt": "at {{time}}",
+      "slideToRedeem": "SLIDE TO REDEEM",
+      "couponCard": "Coupon Card",
+      "upcoming": "Upcoming",
+      "promotions": "Promotions",
+      "news": "News",
+      "events": "Events",
+      "merchants": "Merchants",
+      "openingHours": "Opening hours",
+      "open": "Open",
+      "closed": "Closed",
+      "openAt": "Open at",
+      "closedAt": "Closed at"
+    },
+    "busScheduleScreen": {
+      "pickupPoint": "Pick-up points",
+      "dropOffPoint": "Drop-off points",
+      "pickupAndDropOffPoint": "Pick-up & drop-off points",
+      "selectRoute": "Select route",
+      "schedule": "Schedule",
+      "notice": "Notice",
+      "busStops": "Bus stops",
+      "scheduleButton": "Schedule"
+    },
+    "busScreen": {
+      "syncBusCard": {
+        "title": "Which Card Is Yours?",
+        "desc": "Please select from below which card is yours."
+      },
+      "busPayment": {
+        "paymentFailure": {
+          "title": "SOMETHING’S WRONG",
+          "message": "Error! [{{message}}] Please use this order reference {{orderRef}} and contact EcoPM for support."
+        },
+        "paymentSuccessful": {
+          "title": "Card Successfully Extended!",
+          "message": "You have successfully extended your bus card! Now you can easily move on and off Ecobus!"
+        }
+      },
+      "busCardScreen": {
+        "busCard": "Bus Cards",
+        "verifyBusCardButton": "Verify Bus Card",
+        "priceChartButton": "Price Chart",
+        "addCardButton": "Add Card",
+        "addBusCardButton": "Add bus card",
+        "expirationDateText": "Expires at",
+        "usesLeftText": "Uses left",
+        "myCard": "My card",
+        "deleteConfirmationMessage": "Are you sure you want to remove this card?",
+        "cardDeletedMessage": "Card removed.",
+        "tab": {
+          "busCard": "Bus Card",
+          "singlePass": "Single Pass"
+        },
+        "extendCard": "Extend Card",
+        "detail": {
+          "isLocked": "LOCKED",
+          "invalidStartDate": "SOON IN EFFECT",
+          "expiredByDate": "EXPIRED",
+          "outOfRemainingTrip": "CREDIT USED UP",
+          "isFree": "FREE",
+          "active": "ACTIVE",
+          "tripRemaining": "Trips remaining",
+          "startFrom": "Start from",
+          "validStart": "Start from",
+          "validUntil": "Expired date",
+          "total": "Total",
+          "freeCard": "Free Card"
+        },
+        "noneEcoId": "Oops... \nWe can't find any bus card. Please contact EcoPM for support!",
+        "contact": "Contact",
+        "needSyncBusCardFirst": "Please sync your bus cards first!",
+        "syncCard": "Add/Remove Card",
+        "needSyncEcoIdFirst": "Please sync EcoID to start managing your bus cards! ",
+        "needResyncEcoId": "Oops... \nWe can't find any bus card. Please contact EcoPM for support!",
+        "resycnEcoID": "Sync again",
+        "sycnEcoID": "Sync now"
+      },
+      "extendBusCard": {
+        "total": "Total",
+        "tab": {
+          "freeCards": "Free Card",
+          "charge": "Charged Card"
+        },
+        "proceed": "Proceed",
+        "extendFree": "Extend Free Card",
+        "noCardExtend": "Your cards can not be extended through EcoOne now. Please come to extend your cards at the reception."
+      },
+      "busCardVerificationScreen": {
+        "headerTitle": "Bus Card Verification",
+        "livingAreaLabel": "Living area",
+        "cardNumberLabel": "Card number",
+        "resetButton": "Reset",
+        "verifyBusCardButton": "Verify bus card",
+        "dismissVerificationButton": "Done",
+        "primary": "I am the owner of this card",
+        "cardModifiedMessage": "Your changes have been saved.",
+        "cardAddedMessage": "Bus card has been successfully added!"
+      },
+      "busCardInformationScreen": {
+        "headerRegistration": "Register for a bus card",
+        "contentRegistration": "- Residents of high-rise areas can register at receptions inside their respective buildings.\n- Residents of low-rise areas can register at the respective Clubhouse. Pho Truc residents and all businesses in Ecopark can register at EcoPM Office - C1 Tower Rung Co.\n\nNotes:\n- Please receive your card and use Ecobus after 3-5 working days after completing the service registration.\n- Only the owner of the bus card is entitled to use the card and enter the bus. If caught lending a card or using the card of another owner, the card will be revoked.",
+        "headerExtend": "Extend and pay for Ecobus Service using EcoOne",
+        "contentExtend": "For combo bus cards:\n- The expiry date of the combo card is from the renewal date. Buy more than 1 combo at once can only increase the number of turns left, but the expiration date. That means even if you buy five Combo 10, the expiry date for all swipes is still 6 months.\n- Cannot use combo in case it is time or turn expired regardless the order they are:\n  + In case the expiry date is over while you still have some turns left, those turn left will be reset to 0 next time when you come to expire the card.\n  + In case the turn left is zero but the expired date is still available, the next expired date will be defined from the day you renew your cards.\n\nFor the monthly bus cards:\n- The Ecobus monthly card will be renewed immediately after the customer renews and pays through the EcoOne application.\n- For renewal and payment via the reception, please do before the 23rd of every month.\n- Customers who register at any time of the month are also charged the same service fee as one (01) month.",
+        "instructionDetails": "Please read the full service guideline [here]. For any questions, please contact EcoPM hotline: 02462664545 for support.\n\n"
+      },
+      "busCardPriceScreen": {
+        "busCardTypeColumnTitle": "Bus card type",
+        "busCardPriceColumnTitle": "Price"
+      },
+      "busRoute": {
+        "allStops": "All Stops",
+        "yourTrip": "Your Trip",
+        "moreSteps": "{{moreSteps}} more steps",
+        "moreStops": "{{moreSteps}} more stops",
+        "noRouteFound": "Couldn't find any route that connects your location to the stop."
+      },
+      "bottomDrawer": {
+        "searchHint": "Search for a location"
+      },
+      "searchDestination": {
+        "recents": "Recents",
+        "currentLocation": "Current location",
+        "chooseOnMap": "Choose on map",
+        "selectALocation": "Select A Location",
+        "selectARoute": "Select a route",
+        "noData": "Couldn't find any routes available."
+      },
+      "searchDirection": {
+        "recents": "Recents",
+        "noSearchHistory": "You have not searched before!",
+        "busStopSchedule": "Bus Stop Schedule",
+        "searchALocation": "Search a location",
+        "directMeHere": "Direct me here",
+        "selectALocation": "Select A Location",
+        "noStops": "Couldn't find any stops available for your address."
+      },
+      "stopDetail": {
+        "today": "Today",
+        "selectDate": "Select date",
+        "selectTime": "Select time",
+        "schedule": "Schedule",
+        "moreStops": "{{moreStops}} more stops"
+      },
+      "busStop": {
+        "showDirectionButton": "Direct me here",
+        "showScheduleButton": "View Schedule",
+        "selectARoute": "Select a route"
+      },
+      "busSettings": {
+        "showBusLocation": "Show bus location on map"
+      },
+      "locationPermission": "Please go to Settings to enable location permission for EcoOne",
+      "shortcuts": {
+        "home": "Home",
+        "work": "Work",
+        "edit": "Edit",
+        "set": "Set"
+      }
+    },
+    "settingsScreen": {
+      "changePassword": "Change password",
+      "language": "Language",
+      "notifications": "Notifications",
+      "resync_notification": "Add/remove apartments",
+      "languageOptions": {
+        "vn": "Tiếng Việt",
+        "en": "English"
+      },
+      "confirmChangeLanguage": "Do you want to change the language to {{language}}?",
+      "signOut": "Sign out",
+      "notificationsSettings": {
+        "billNotifications": "Bill notifications",
+        "newsNotifications": "News notifications",
+        "newsNotificationsOfEcopark": "Notify me about Ecopark's official news and announcements",
+        "newsNotificationsOfEcoPM": "Notify me about EcoPM's official news and announcements",
+        "paymentReminderNotification": "Reminders"
+      }
+    },
+    "changePasswordScreen": {
+      "description": "Enter your new password below",
+      "oldPassword": "Old Password",
+      "newPassword": "New Password",
+      "retypeNewPassword": "Retype New Password",
+      "changePasswordSuccess": "Password changed successfully."
+    },
+    "cardProfileScreen": {
+      "about": "About",
+      "contents": "Contents",
+      "editor": "Editor"
+    },
+    "cardFavoritesScreen": {
+      "favorites": "Favorites ({{count}})",
+      "noFavoriteCards": "You have not favorited any card.",
+      "favoritesLabel": "Favorites"
+    },
+    "notificationScreen": {
+      "noNotification": "Oops...\nYou don’t have any notifications.",
+      "announcementBadge": "Announcement"
+    },
+    "bookmarkScreen": {
+      "noBookmark": "No bookmarks yet.",
+      "noBookmarkSubtitle": "Tap the bookmark icon on any cards to add it to your Saved."
+    },
+    "vaccineDashboard": {
+      "title": {
+        "register": "Registration",
+        "management": "Registration management",
+        "injection_update": "After vaccination survey",
+        "feedback": "Health survey"
+      },
+      "desc": {
+        "register": "Registered: {{total}}",
+        "management": "Verified: {{total}}",
+        "injection_update": "Completed: {{total}}",
+        "feedback": "Completed: {{total}}"
+      },
+      "modelTitle": {
+        "register": "Covid-19 Vaccination Registration",
+        "management": "Registration management",
+        "injection_update": "After vaccination survey",
+        "feedback": "Health survey",
+        "registerExpired": "Registration has expired"
+      }
+    },
+    "vaccineRegistrationExpired": {
+      "header": "Sorry! The deadline for registration of vaccination information has expired.",
+      "details": "Please contact reception or call 1900555565 for more detail. Thank you!"
+    },
+    "vaccineRegistrationList": {
+      "descText": "Ecopark will inform you about vaccination schedule soon.Please follow our news and notifications.",
+      "verifying": "Verifying",
+      "verified": "Verified",
+      "rejected": "Rejected",
+      "need_updating": "Need updating",
+      "not_found": "No registration found.",
+      "rejectNote": "We cannot verify your registration. Please go to reception for more information."
+    },
+    "afterInjectionUpdate": {
+      "titleChoseServay": "You've got vaccinated?",
+      "noInjection": "No",
+      "injection": "Yes",
+      "updateNoInjection": {
+        "title": "Please tell us why haven't you got vaccinated",
+        "button": "Submit"
+      },
+      "updateInjected": {
+        "header": "Please share your vaccination information",
+        "title": "Do you have any side effect after vaccination?",
+        "description": "Vui lòng chia sẻ thông tin tiêm chủng của Quý cư dân",
+        "date": "Date",
+        "location": "Location",
+        "placeholderLocation": "Select hospital",
+        "type": "Type of vaccine",
+        "placeholderType": "Select vaccine",
+        "round": "Dose",
+        "firstRound": "The first",
+        "secondRound": "The second",
+        "images": "Photo/Scan of vaccination certificate",
+        "titleServay": "Side effects I had",
+        "addImage": "Add image"
+      },
+      "surveySuccess": {
+        "header": "Your answer was submitted successfully!",
+        "title": "Thank you for!",
+        "description": "Thank you for doing the survey and being part of our community to fight Covid-19. You can do this survey many times to update your vaccination status.",
+        "button": "Return to homepage"
+      }
+    },
+    "vaccineRegistrationScreen": {
+      "errors": {
+        "phoneInUsed": "This phone number is already registered"
+      },
+      "stepOne": {
+        "title": "Step 1: Personal information",
+        "description": "The information you provided will be used for authenticating the vaccination process. Please fill in your information accurately and carefully!",
+        "isRegistered": "I'm using my phone number to register for someone else",
+        "fullName": "Full name",
+        "birthday": "Date of birth",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "phoneNumber": "Phone number for vaccination info",
+        "nation": "Ethnic group",
+        "nationPlaceholder": "Select ethnic group",
+        "insurrance": "Health insurance (if any)",
+        "insurrancePlaceholder": "Please fill in your health insurance code/ID/number",
+        "verificationType": "Type of identify document",
+        "identityNumber": "ID",
+        "identityCard": "Identity Card",
+        "passport": "Passport",
+        "birthCertificate": "Birth certificate",
+        "identityIssueDate": "Issue date",
+        "identityIssuePlace": "Issued by",
+        "imageIdentityNumber": "ID scanning",
+        "imageIdentityNumberDesc": "Please provide good quality image",
+        "frontImageidentityNumber": "Front side",
+        "backImageidentityNumber": "Back side",
+        "passportNumber": "Passport No.",
+        "passportSignDate": "Date of issue",
+        "passportExpiryDate": "Date of expiry",
+        "country": "Nationality",
+        "passportScanTitle": "Passport scanning",
+        "passportScanDesc": "Please provide good quality image",
+        "passportScan": "Add image",
+        "birthCertificateScan": "Birth certificate scanning",
+        "birthCertificateScanDesc": "Please provide good quality image",
+        "descritionLocation": "Please declare the info which is written on your ID card",
+        "city": "City/Province",
+        "district": "District",
+        "commune": "Ward",
+        "province": "Town/Village",
+        "provincePlaceholder": "Please provide the address on your ID card",
+        "career": "Job/Work field",
+        "careerPlaceholder": "What do you do?",
+        "placeWork": "Workplace/ Working location",
+        "placeWorkPlaceholder": "Where do you work?",
+        "continue": "Next"
+      },
+      "stepOtp": {
+        "description": "OTP has been sent to your phone number {{phoneNumber}}, please enter it below."
+      },
+      "stepTwo": {
+        "title": "Step 2: Residence information",
+        "stay": "Accommodation",
+        "owner": "Accommodation owner",
+        "relationship": "Relationship with owner",
+        "relationshipPlaceholder": "Select relationship with owner",
+        "tempLeaveFromDate": "I've been living here since",
+        "stayStatusCode": "Residence status at Ecopark",
+        "otherScanTitle": "Proof of relationship with the owner (Scanning/Photo)",
+        "otherScanDesc": "Please provide photos that show your relationship with the accommodation’s owner (household book, temporary residence certificate, marriage certificate, renting/buying contract, or any other paper which proves the relationship). Maximum 3 photos.",
+        "back": "Back"
+      },
+      "stepThere": {
+        "title": "Step 3: Confirmation",
+        "address": "Permanent address"
+      },
+      "stepFour": {
+        "title": "Registration successful",
+        "description": "Thank you for your registration! We will check your information and notify the result within 3-5 days.",
+        "goToHome": "Back to homepage"
+      }
+    },
+    "ecoId": {
+      "ecoIdOnboardingScreen": {
+        "screen1": {
+          "title": "GO DIGITAL",
+          "text": "Are you a resident or do you own a residence in Ecopark? Connecting with EcoID is a secure and easy way to get access to your resident information digitally!"
+        },
+        "screen2": {
+          "title": "SMART PAYMENTS",
+          "text": "Using EcoID you can pay your bills and manage your household directly from within EcoOne. EcoID gives you access to view all your previous payments so that you never have to worry about keeping your receipts - we take care of the boring stuff."
+        },
+        "screen3": {
+          "button": "Connect",
+          "title": "STAY TUNED",
+          "text": "As a resident you will soon be able to extend you - or your family’s - bus cards directly from EcoOne. Stay tuned for new updates and our resident only activities!"
+        }
+      },
+      "ecoIdSelectResidentScreen": {
+        "description": "Please confirm your name and residences by selecting the correct information below.",
+        "contactUs": "Contact us",
+        "continue": "Continue",
+        "success": {
+          "header": "YOU’RE ALL SET!",
+          "body": "You’re now digital - good job! Please enjoy and stay tuned for new functionality.",
+          "start": "Let’s go"
+        },
+        "failed": {
+          "header": "THERE WAS AN ERROR",
+          "body": "Looks like something is wrong - but don’t worry! Please contact your landlord to get your information updated. If you’re a landlord please contact EcoPM directly and we’ll get your sorted right away.",
+          "contactUs": "Contact us"
+        }
+      },
+      "ecoIdSyncSuccessfulScreen": {
+        "header": "YOU’RE ALL SET!",
+        "body": "You’re now digital - good job! Please enjoy and stay tuned for new functionality.",
+        "start": "Let’s go"
+      },
+      "ecoIdHouseholdScreen": {
+        "yourBills": "Water and service fee bills",
+        "nextDueDate": "Next due date",
+        "paymentHistory": "History",
+        "payBills": "Pay bills",
+        "householdMembers": "Household members"
+      },
+      "ecoIdFailedScreen": {
+        "title": "SORRY, SOMETHING WENT WRONG",
+        "message": "Please try again or contact us directly for support.",
+        "contactUs": "Contact us"
+      },
+      "ecoIdLoading": "Fetching data",
+      "ecoIdPreparePaymentScreen": {
+        "vnd": "{{price}} VNĐ",
+        "total": "Total",
+        "overpaidDeduction": "Overpaid deduction",
+        "billTotal": "Remaining",
+        "totalAmount": "Total amount",
+        "proceedToPayment": "Proceed to payment",
+        "dueDate": "Due date",
+        "billTypes": {
+          "DIEN": "Electricity service",
+          "NUOC": "Water service",
+          "VAT": "Service fees",
+          "KQDC": "Deposit, margin trading",
+          "XE": "Parking fee",
+          "THE": "Card fee",
+          "DVKT": "Added technical service ",
+          "VSGT": "Added cleaning service",
+          "CLB": "Clubhouse service",
+          "BAT": "Temporary fence rental service",
+          "TRAM": "Booth rental revenue",
+          "KYQUY": "Deposit, margin trading for construction",
+          "DATCOCBAT": "Barrier rental deposit",
+          "DOTAXI": "Taxi parking revenue",
+          "PBH": "Insurance fee",
+          "OTHER": "Service fees"
+        }
+      },
+      "ecoIdPaymentScreen": {
+        "confirmDiscardMessage": "You haven't finished your transaction. Do you want to quit?",
+        "success": {
+          "header": "ALL DONE!",
+          "body": "You have successfully paid for your bills!\nClick on OK to view your receipt.",
+          "button": "OK"
+        },
+        "failed": {
+          "header": "SOMETHING’S WRONG",
+          "body": "There might have been a problem with your payment. Please try again later or go to Contact us for support.",
+          "bodyWithMessage": "Sorry, the following error: <b>{{message}}</b> happened during the payment process. Please use this order reference <b>{{orderRef}}</b> and contact EcoPM for support.",
+          "contactUs": "Contact us"
+        },
+        "promotion": {
+          "title": "WELL ALL IS DONE!",
+          "desc": "Congratulations! You have successfully paid your bill and now are one out of 4000 apartments to receive promotions of up to 500K for Q3 2021 management fee!",
+          "button": "View receipt"
+        }
+      },
+      "ecoIdPaymentHistoryScreen": {
+        "newestToOldest": "Newest to oldest",
+        "oldestToNewest": "Oldest to newest",
+        "sort": "Sort",
+        "filter": "Filter",
+        "paidOn": "Paid on {{date}}",
+        "paymentMethod": {
+          "ecoone": "EcoOne",
+          "cash": "Cash",
+          "bank_transfer": "Bank transfer",
+          "card": "Bank card"
+        },
+        "noPaymentHistory": "There are no paid bills.",
+        "billDetails": {
+          "billNumber": "Bill number",
+          "billDescription": "Description",
+          "billIssueDate": "Issue date",
+          "billFinalPaymentDate": "Payment date",
+          "billDetails": "Details",
+          "prepaidAmount": "Paid amount",
+          "billDueDate": "Due date"
+        }
+      }
+    },
+    "electricBill": {
+      "addNewCustomerCode": {
+        "companyName": "CÔNG TY CỔ PHẦN ĐIỆN NƯỚC LẮP MÁY HẢI PHÒNG",
+        "companyDetails": "Haiphong electricity water machine assembly join stock company",
+        "customerCode": "Customer code",
+        "note": "Customer code is found in the electricity contract or your previous payment receipts.",
+        "modalTitle": "Customer code checking",
+        "modalHeader": "No information found",
+        "modalDetails": "Your bills might already be paid, or the customer code is incorrect.\nPlease check again!"
+      },
+      "customerCodeNote": "Customer code is saved after the first successful payment.",
+      "addCustomerCode": "Add customer code",
+      "totalBill": "{{total}} unpaid bill",
+      "totalBills": "{{total}} unpaid bills",
+      "listBills": {
+        "note": "You can check the bill details by filling your Customer Code in \"Tra cứu hóa đơn tiền điện\" on [diennuochp.com.vn]",
+        "billTitle": "Bill for {{month}}/{{year}}",
+        "customerCode": "Customer code",
+        "customerName": "Name",
+        "customerAddress": "Address",
+        "totalPay": "Total",
+        "totalVnd": "{{total}} VND",
+        "payNow": "Pay now",
+        "cardType": "Payment method",
+        "domestic": "Domestic atm card",
+        "international": "International cards Visa, Master, JCB",
+        "paymentFee": "Payment fee {{paymentFee}} VND"
+      },
+      "deleteCodeModal": {
+        "title": "Delete customer code",
+        "header": "Delete code {{code}}?",
+        "details": "You will no longer have notification of bills for this customer code on EcoOne.",
+        "delete": "Yes"
+      },
+      "deleteCodeSuccessModal": {
+        "header": "Code successfully removed!",
+        "details": "Customer code {{code}} is removed."
+      },
+      "emptyPaymentHistory": "No paid bills found.",
+      "paymentHistory": {
+        "note": "Paid bills with transactions on EcoOne are recorded here.",
+        "billTitle": "Bill for {{- month}}",
+        "paidAt": "Date"
+      }
+    },
+    "paymentScreen": {
+      "confirmDiscardMessage": "You haven't finished your transaction. Do you want to quit?",
+      "errorMessage": "Error! [{{message}}] Please use this order reference {{orderRef}} and contact EcoPM for support.",
+      "errorMessageEcotekSupport": "Error! [{{message}}] Please use this order reference {{orderRef}} and contact Ecotek for support.",
+      "paymentSuccessful": {
+        "title": "ALL DONE!",
+        "message": "You have successfully paid for your bills!"
+      },
+      "paymentFailed": {
+        "title": "SOMETHING’S WRONG"
+      }
+    }
+  },
+  "headers": {
+    "bookmarkScreen": "Liked pages",
+    "busCardScreen": "Bus Cards",
+    "busCardVerificationScreen": {
+      "add": "Add bus card",
+      "edit": "Edit bus card"
+    },
+    "busCardPriceChartScreen": "Price Chart",
+    "busCardInstructions": "Instruction",
+    "busCardInformationScreen": "Information",
+    "profile": "Profile",
+    "busShortcutScreen": "Shortcuts",
+    "busSettings": "Settings",
+    "busSchedule": "Bus schedule",
+    "signUpScreen": "Sign Up",
+    "addPhoneNumberScreen": "Update your phone number",
+    "verificationScreen": "Is it really you?",
+    "basicInfoScreen": "Basic Info",
+    "interestScreen": "Interests",
+    "signInScreen": "Welcome back!",
+    "forgotPasswordScreen": "I know it's hard to remember",
+    "resetPasswordScreen": "It's your chance!",
+    "settings": "Settings",
+    "contact": "Contact Us",
+    "language": "Language",
+    "changePassword": "Change Password",
+    "helpDesk": "EcoFeedback",
+    "ticketDetails": "Ticket details",
+    "newsScreen": "News",
+    "helpDeskNewTicket": "I have a question about",
+    "ecoIdSynchronization": "Is it you?",
+    "notifications": "Notifications",
+    "householdSelectionScreen": "My residences",
+    "prepareBillPayment": "Your bills",
+    "payment": "Payment",
+    "paymentFailure": "Payment failure",
+    "paymentHistory": "Payment history",
+    "syncBusCard": "Sync bus card",
+    "extendBusCard": "Extend Card",
+    "ecoBusPaymentScreen": "Payment",
+    "vaccineRegistration": "Covid-19 Vaccination Registration",
+    "vaccineRegistrationList": "Registration management",
+    "vaccineDashboard": "Covid-19 vaccination program",
+    "electricBill": "Customer codes management",
+    "electricPayment": "Electricity bill payment",
+    "electricPaymentHistory": "Payment history"
+  },
+  "errors": {
+    "required": "{{field}} is required",
+    "unknown": "An error occured, please try again!",
+    "user": {
+      "first_name": {
+        "invalid": "Please enter a valid first name"
+      },
+      "last_name": {
+        "invalid": "Please enter a valid last name"
+      },
+      "phone_number": {
+        "invalid": "Phone number is invalid",
+        "unavailable": "Phone number is already registered"
+      },
+      "otp_limit": "OTP timeout. Please try again in a bit",
+      "token": {
+        "invalid": "Unknown error. Please restart and try again"
+      },
+      "password": {
+        "invalid": "Password must be at least 6 characters",
+        "notMatched": "Passwords doesn't match"
+      },
+      "avatar": {
+        "invalid": "The avatar is not invalid. Please upload again!"
+      },
+      "email": {
+        "unavailable": "Email is already registered",
+        "invalid": "Email is not correct"
+      },
+      "provider": {
+        "error": {
+          "title": "Oops... It's not your fault",
+          "message": "You have registered with [{{provider}}]. Please sign in again using that account."
+        }
+      },
+      "temporarily_blocked": "You've reached the maximum number of attempts.\nPlease try again after 5 minutes."
+    },
+    "attachments": {
+      "attachmentLimit": "Too many attachments!",
+      "attachmentLimitBody": "It is only possible to upload up to {{attachmentLimit}} attachments per message.",
+      "failedUpload": "Your file upload failed.\nPlease try again!"
+    },
+    "authentication": {
+      "missing_parameters": "Please enter your email and password",
+      "unauthenticated": "Incorrect phone number or password",
+      "incorrect_email_format": "Please enter a valid email",
+      "missing_email": "Please enter an email",
+      "missing_password": "Please enter a password",
+      "missing_firstName": "Please enter a first name",
+      "missing_lastName": "Please enter a last name",
+      "user_not_found": "Please enter a valid email",
+      "password_confirmation_error": "Passwords must be identical",
+      "authentication": {
+        "unauthenticated": "Incorrect login information"
+      },
+      "email": {
+        "unavailable": "Email is taken"
+      }
+    },
+    "otp_code": {
+      "invalid": "Incorrect OTP"
+    },
+    "otp_quota": {
+      "unavailable": "Please wait to resend OTP"
+    },
+    "record": {
+      "not_found": "Record not found"
+    },
+    "current_password": {
+      "incorrect": "Current password is incorrect"
+    },
+    "bus": {
+      "card": {
+        "not_found": "Card not found"
+      }
+    },
+    "buscard": {
+      "card_number_duplication": {
+        "invalid": "You have already connected this card"
+      }
+    },
+    "location_handover_campaign": {
+        "not": {
+            "exist": "Căn bàn giao không tồn tại"
+        },
+         "can":{
+            "not":{
+                "schedule": "Căn bàn giao không thể đặt lịch"
+            }
+        }
+    },
+    "phone_number.not.match":{
+        "not":{
+            "match": "Số điện thoại không khớp với căn bàn giao"
+        }
+    }
+  },
+  "navigation": {
+    "tabs": {
+      "userProfile": "Profile"
+    }
+  },
+  "validation": {
+    "OTPVerificationScreen": {
+      "length": "Must be 6 digits",
+      "presence": "Must not be blank",
+      "numericality": "Must contain only numbers"
+    },
+    "signInScreen": {
+      "phonePresence": "Cannot be blank",
+      "phoneFormat": "Must start with 84 or 0, followed by 9 digits",
+      "passwordPresence": "Cannot be blank",
+      "passwordLength": "Must be longer than 5 characters"
+    },
+    "signUpScreen": {
+      "emailPresence": "Cannot be blank",
+      "emailFormat": "Enter a valid email address",
+      "passwordPresence": "Cannot be blank",
+      "passwordLength": "Must be longer than 5 characters",
+      "firstNamePresence": "Please enter a first name",
+      "lastNamePresence": "Please enter a last name",
+      "termsAndConditions": "Please check this to proceed"
+    },
+    "busCardVerificationScreen": {
+      "livingAreaPresence": "Cannot be blank",
+      "cardNumberPresence": "Cannot be blank",
+      "cardNumberLength": "Must be 8 digits",
+      "cardNumberNumericality": "Must contain only numbers",
+      "cardNumberFormat": "Invalid card number"
+    },
+    "updateProfileScreen": {
+      "emailFormat": "Email is invalid"
+    },
+    "changePasswordScreen": {
+      "retypePassword": "Retype password must be same to the new password"
+    }
+  },
+  "actions": {
+    "edit": "Edit",
+    "ok": "OK",
+    "done": "DONE",
+    "back": "Back",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No",
+    "next": "Next",
+    "finish": "Finish",
+    "create": "Create",
+    "verify": "Verify",
+    "goBack": "Go back",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "loading": "Loading",
+    "close": "Close",
+    "share": "Share",
+    "continue": "Continue",
+    "understand": "Got it",
+    "contactUs": "Contact us"
+  },
+  "googleSignin": {
+    "cancelled": "Sign in was cancelled",
+    "inProgress": "A sign in process is currently in progress",
+    "playServicesUnavailable": "Play services are unavailable",
+    "failed": "Sign in failed"
+  },
+  "date": {
+    "daysOfWeek": {
+      "all": "Every day",
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  }
+}

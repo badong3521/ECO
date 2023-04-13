@@ -1,0 +1,14 @@
+/*
+  InfoPlist.strings
+  Ecoone
+
+  Created by Nha Nha on 6/20/20.
+  Copyright © 2020 Facebook. All rights reserved.
+*/
+NSCameraUsageDescription = "EcoOne muốn sử dụng camera của bạn để chụp ảnh đại diện";
+NSLocationAlwaysAndWhenInUseUsageDescription = "EcoOne muốn truy cập vị trí của bạn để cung cấp thông tin về lịch trình, vị trí của xe bus cũng nhưng quãng đường bạn đi.";
+NSLocationAlwaysUsageDescription = "EcoOne muốn truy cập vị trí của bạn để cung cấp thông tin về lịch trình, vị trí của xe bus cũng nhưng quãng đường bạn đi.";
+NSLocationWhenInUseUsageDescription = "EcoOne muốn truy cập vị trí của bạn để cung cấp thông tin về lịch trình, vị trí của xe bus cũng nhưng quãng đường bạn đi.";
+NSMicrophoneUsageDescription = "EcoOne muốn sử dụng microphone của bạn để quay video";
+NSPhotoLibraryAddUsageDescription = "EcoOne muốn lưu ảnh của bạn vào thư viện ảnh";
+NSPhotoLibraryUsageDescription = "EcoOne muốn sử dụng thư viện ảnh của bạn để tải ảnh đại diện";
